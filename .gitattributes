@@ -4,12 +4,13 @@
 *.json text eol=lf
 *.jsx text eol=lf
 *.md text eol=lf
+*.scss text eol=lf
 *.ts text eol=lf
 
-.babelrc text eol=lf
-.gitattributes text eol=lf
-.gitignore text eol=lf
-.gitkeep text eol=lf
-.editorconfig text eol=lf
+.* text eol=lf
+browerslist text eol=lf
 LICENSE text eol=lf
 
+# Denote all files that are truly binary and should not be modified.
+*.ico binary
+*.png binary

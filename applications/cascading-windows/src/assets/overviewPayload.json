@@ -1,0 +1,14 @@
+{
+    "payload": {
+        "cascadingWindows": {
+            "title": "Techincal Overview: ",
+            "subtitle": "Casacading open Kendo Window references.",
+            "points": [
+              "Tracks two aspects of Windows - each opened WindowRef object in an array, and the WindowRef array length in a BehaviorSubject",
+              "The array for WindowRefs has the Ref added when the window is opened, and removes the ref when the window is closed",
+              "The BehaviorSubject current count is updated when ever the array has a WindowRef removed or added",
+              "The cascade call will sort the array of WindowRefs by the z-index value of each reference, then go through each WindowRef and set the LEFT and TOP offsets of the window refs in a cascading style"
+            ]
+        }
+    }
+}
