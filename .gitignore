@@ -1,0 +1,11 @@
+# standard ignore file
+*.log
+
+# ide ignores
+.project
+.settings/
+dist/
+
+# node ignores
+node_modules/
+
