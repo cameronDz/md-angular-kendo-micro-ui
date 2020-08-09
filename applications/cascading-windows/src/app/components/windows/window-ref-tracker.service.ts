@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { WindowRef } from '@progress/kendo-angular-dialog';
-import { BehaviorSubject, Subscription } from 'rxjs';
 import { WindowOffsetSetting } from '@progress/kendo-angular-dialog/dist/es2015/window/window-settings';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable()
 export class WindowRefTrackerService {

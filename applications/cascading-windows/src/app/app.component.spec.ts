@@ -1,6 +1,10 @@
-import { TestBed, async, TestModuleMetadata, ComponentFixture } from '@angular/core/testing';
-import { AppComponent } from './app.component';
 import { Component } from '@angular/core';
+import { TestBed, async, TestModuleMetadata, ComponentFixture } from '@angular/core/testing';
+import { DialogModule, WindowContainerService, WindowService } from '@progress/kendo-angular-dialog';
+
+import { WindowRefTrackerService } from './components/windows/window-ref-tracker.service';
+
+import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CascadeWindowsButtonComponent } from './components/windows/window-buttons/cascade-windows-button/cascade-windows-button.component';
@@ -18,7 +22,6 @@ class TestWrapperComponent {
 describe('AppComponent', (): void => {
   let component: TestWrapperComponent;
   let fixture: ComponentFixture<TestWrapperComponent>;
-
   const testConfig: TestModuleMetadata = {
     declarations: [
       AppComponent,
@@ -29,6 +32,14 @@ describe('AppComponent', (): void => {
       OverviewTextComponent,
       TestWrapperComponent
     ],
+    imports: [
+      DialogModule
+    ],
+    providers: [
+      WindowContainerService,
+      WindowRefTrackerService,
+      WindowService
+    ]
   };
 
   beforeEach(async((): void => {
