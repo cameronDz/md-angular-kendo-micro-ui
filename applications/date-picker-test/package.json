@@ -1,0 +1,60 @@
+{
+  "author": {
+    "email": "camerondziurgot@gmail.com",
+    "name": "Cam Dziurgot",
+    "url": "http://camdziurgot.io"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.901.9",
+    "@angular/animations": "~9.0.1",
+    "@angular/cli": "~9.0.2",
+    "@angular/common": "~9.0.1",
+    "@angular/compiler": "~9.0.1",
+    "@angular/compiler-cli": "~9.0.1",
+    "@angular/core": "~9.0.1",
+    "@angular/forms": "~9.0.1",
+    "@angular/language-service": "~9.0.1",
+    "@angular/localize": "^9.1.11",
+    "@angular/platform-browser": "~9.0.1",
+    "@angular/platform-browser-dynamic": "~9.0.1",
+    "@angular/router": "~9.0.1",
+    "@progress/kendo-angular-common": "^1.2.2",
+    "@progress/kendo-angular-dateinputs": "^4.3.1",
+    "@progress/kendo-angular-intl": "^2.0.2",
+    "@progress/kendo-angular-l10n": "^2.0.2",
+    "@progress/kendo-angular-popup": "^3.0.6",
+    "@progress/kendo-theme-default": "^4.19.0",
+    "@types/jasmine": "~3.5.0",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^5.1.2",
+    "jasmine-core": "~3.5.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~4.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~2.1.0",
+    "karma-jasmine": "~2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.2",
+    "rxjs": "~6.5.4",
+    "ts-node": "~8.3.0",
+    "tslib": "^1.10.0",
+    "tslint": "~5.18.0",
+    "typescript": "~3.7.5",
+    "zone.js": "~0.10.2"
+  },
+  "description": "POC application for testing Kendo Datepicker Angular component.",
+  "license": "MIT",
+  "name": "md-date-picker",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cameronDz/md-angular-kendo-datepicker"
+  },
+  "scripts": {
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test --watch=false --code-coverage --browsers ChromeHeadless",
+    "lint": "ng lint"
+  },
+  "version": "1.0.0"
+}
