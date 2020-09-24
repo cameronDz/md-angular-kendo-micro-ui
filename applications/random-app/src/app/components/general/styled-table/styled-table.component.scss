@@ -1,0 +1,42 @@
+.styled-table-container
+{
+  width: 100%;
+  table-layout: auto;
+}
+
+.styled-table
+{
+  border-style: solid;
+}
+
+.table-column
+{
+  max-height: 45px;
+  white-space: nowrap;
+}
+
+.column-one
+{
+  width: 125px;
+}
+
+.column-two
+{
+  width: 25px;
+}
+
+.column-three
+{
+  width: 50px;
+}
+
+.column-four
+{
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.column-five
+{
+  width: 200px;
+}

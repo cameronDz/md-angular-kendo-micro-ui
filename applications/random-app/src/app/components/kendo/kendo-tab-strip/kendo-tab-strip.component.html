@@ -1,0 +1,24 @@
+<kendo-tabstrip #kendoTabStripSelector
+  (tabSelect)="onTabSelect($event)"
+>
+  <kendo-tabstrip-tab [title]="tabOneTitle" [selected]="true">
+    <ng-template kendoTabContent>
+      <p>{{tabOneParagraph}}</p>
+    </ng-template>
+  </kendo-tabstrip-tab>
+  <kendo-tabstrip-tab [title]="tabTwoTitle">
+    <ng-template kendoTabContent>
+      <md-tutorial-kendo-tree-view></md-tutorial-kendo-tree-view>
+    </ng-template>
+  </kendo-tabstrip-tab>
+  <kendo-tabstrip-tab [title]="tabThreeTitle" [disabled]="!isTabEnabled"></kendo-tabstrip-tab>
+  <kendo-tabstrip-tab [title]="tabFourTitle">
+    <ng-template kendoTabContent>
+      <md-tutorial-kendo-splitter></md-tutorial-kendo-splitter>
+    </ng-template>
+  </kendo-tabstrip-tab>
+</kendo-tabstrip>
+
+<button (click)="onTabButtonClick()">
+  {{tabStripButtonText}}
+</button>

@@ -1,0 +1,40 @@
+{
+  "payload": [
+    {
+      "id": "1",
+      "name": "some special name 1",
+      "category": "abc",
+      "price": 44.33
+    },
+    {
+      "id": "2",
+      "name": "some special name 2",
+      "category": "abc",
+      "price": 22.33
+    },
+    {
+      "id": "3",
+      "name": "some special name 3",
+      "category": "abc",
+      "price": 33.33
+    },
+    {
+      "id": "4",
+      "name": "some special name 4",
+      "category": "abc",
+      "price": 77.33
+    },
+    {
+      "id": "5",
+      "name": "some special name 5",
+      "category": "abc",
+      "price": 55.33
+    },
+    {
+      "id": "6",
+      "name": "some special name 6",
+      "category": "abc",
+      "price": 66.33
+    }
+  ]
+}

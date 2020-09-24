@@ -1,0 +1,45 @@
+{
+  "button": {
+    "clearNodeText": "Clear Selection",
+    "collapseNodesText": "Collapse Expanded Nodes",
+    "noActionText": "No Action Available"
+  },
+  "list": [
+    {
+      "text": "First Section",
+      "items": [
+        { "text": "Subsection A One" },
+        { "text": "Subsection A Two" },
+        { "text": "Subsection A Three" }
+      ]
+    },
+    {
+      "text": "Empty Section",
+      "items": []
+    },
+    { "text": "Not a Section One" },
+    { "text": "Not a Section Two" },
+    {
+      "text": "Section with Subsections",
+      "items": [
+        {
+          "text": "Subsection B One",
+          "items": [
+            { "text": "Grandchild B One A" },
+            { "text": "Grandchild B One B" }
+          ]
+        },
+        { "text": "Subsection B Two" },
+        {
+          "text": "Subsection B Three",
+          "items": [
+            { "text": "Grandchild B Three A" },
+            { "text": "Grandchild B Three B" },
+            { "text": "Grandchild B Three C" }
+          ]
+        }
+      ]
+    },
+    { "text": "Not a Section Thrree" }
+  ]
+}

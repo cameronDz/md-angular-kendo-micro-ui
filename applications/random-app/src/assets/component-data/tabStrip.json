@@ -1,0 +1,16 @@
+{
+  "data": {
+    "button": {
+      "text": "Tab Strip Button"
+    },
+    "content": {
+      "informationParagraph": "This is an example of how to use various Kendo Angular components."
+    },
+    "names": [
+      "Information Tab",
+      "Middle Tab",
+      "Disablable Tab",
+      "Split Tab"
+    ]
+  }
+}

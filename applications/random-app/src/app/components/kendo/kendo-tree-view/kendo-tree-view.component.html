@@ -1,0 +1,14 @@
+<div>
+  <button (click)="onTreeButtonClick()">{{generateTreeText()}}</button>
+</div>
+<kendo-treeview
+  kendoTreeViewExpandable
+  kendoTreeViewSelectable
+  kendoTreeViewHierarchyBinding
+  textField="text"
+  childrenField="items"
+  [expandedKeys]="expandedKeys"
+  [nodes]="payload"
+  [(selectedKeys)]="selectedKeys"
+>
+</kendo-treeview>

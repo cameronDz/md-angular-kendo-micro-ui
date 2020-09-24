@@ -1,0 +1,11 @@
+<div class="styled-table-container">
+  <table class="styled-table">
+    <tr *ngFor="let row of tableData">
+      <td class="table-column column-one">{{row && row.columnOne}}</td>
+      <td class="table-column column-two">{{SEPARATOR_BAR}} {{row && row.columnTwo}}</td>
+      <td class="table-column column-three">{{SEPARATOR_BAR}} {{row && row.columnThree}}</td>
+      <td class="table-column column-four">{{SEPARATOR_BAR}} {{row && row.columnFour}}</td>
+      <td class="table-column column-five">{{SEPARATOR_BAR}} {{row && row.columnFive}}</td>
+    </tr>
+  </table>
+</div>
