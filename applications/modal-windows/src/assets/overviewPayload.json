@@ -1,0 +1,18 @@
+{
+    "payload": {
+        "staticWindow": {
+            "title": "Techincal Overview: ",
+            "subtitle": "Adding modality to static Kendo Window components.",
+            "points": [
+                "The application turns windows into modals by using a Kendo overlay, using the .k-overlay class on a global div element that is enabled when the first window is opened.",
+                "When a child window is opened, the parent window is moved behind the the overlay by making the z-index styling less than the z-index applied to the .k-overlay class.",
+                "All click events on the overlay and turned off, as well as on all child windows, applying the following styling: pointer-events: none;."
+            ]
+        },
+        "dynamicWindow": {
+            "title": "",
+            "subtitle": "",
+            "points": []
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<md-nav-bar></md-nav-bar>
+<div class="example-wrapper">
+    <button class="window-button" kendoButton (click)="open()">Open Window Button</button>
+    <md-overview-text
+        [points]="overviewPoints"
+        [subtitle]="overviewSubtitle"
+        [title]="overviewTitle">
+    </md-overview-text>
+    <md-modal-window *ngIf="opened"
+        [isOpen]="opened"
+        (handleWindowClose)="close()">
+    </md-modal-window>
+</div>
+<md-footer></md-footer>
+<div class="k-overlay no-click" *ngIf="opened"></div>

@@ -1,0 +1,23 @@
+<kendo-window *ngIf="isOpen"
+    class="{{isChildOpen ? NO_CLICK_CLASS : ''}}"
+    [height]="height"
+    [minHeight]="minHeight"
+    [minWidth]="minWidth"
+    [style]="isChildOpen ? 'z-index: 1000;' : ''"
+    [title]="displayTitle"
+    [width]="width"
+    (close)="closeWindow()"
+>
+    <button type="button" class="k-button open-child-button" (click)="openChildWindow()">Open Child</button>
+    <button type="button" class="k-button" (click)="closeWindow()">Close</button>
+</kendo-window>
+<md-modal-window *ngIf="isChildOpen"
+    title="Child Window"
+    [height]="height * (4/5)"
+    [isOpen]="isChildOpen"
+    [windowCount]="windowCount + 1"
+    [minHeight]="minHeight * (4/5)"
+    [minWidth]="minWidth * (4/5)"
+    [width]="width * (4/5)"
+    (handleWindowClose)="closeChildWindow()">
+</md-modal-window>
