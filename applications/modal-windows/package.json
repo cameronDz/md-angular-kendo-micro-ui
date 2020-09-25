@@ -4,7 +4,7 @@
         "name": "Cam Dziurgot",
         "url": "https://camdziurgot.io"
     },
-    "description": "Demostration of Kendo's Angular components",
+    "description": "Proof of concept for giving windows modal affect, and opening multiple windows on top of each other.",
     "devDependencies": {
         "@angular-devkit/build-angular": "^0.1001.3",
         "@angular/animations": "~9.0.1",
@@ -30,7 +30,7 @@
         "codelyzer": "^5.1.2",
         "jasmine-core": "~3.5.0",
         "jasmine-spec-reporter": "~4.2.1",
-        "karma": "~4.3.0",
+        "karma": "^5.2.2",
         "karma-chrome-launcher": "~3.1.0",
         "karma-coverage-istanbul-reporter": "~2.1.0",
         "karma-jasmine": "~2.0.1",
@@ -43,16 +43,17 @@
         "zone.js": "~0.10.2"
     },
     "license": "MIT",
+    "name": "@md/angular-kendo-modal-windows",
     "private": false,
-    "name": "md-modal-window",
     "repository": {
+        "directory": "applications/modal-windows",
         "type": "git",
-        "url": "https://github.com/cameronDz/md-kendo-angular-windows"
+        "url": "https://github.com/cameronDz/md-angular-kendo-micro-ui"
     },
     "scripts": {
         "start": "ng serve",
         "build": "ng build",
-        "test": "ng test --code-coverage",
+        "test": "ng test --watch=false --code-coverage=true --browsers ChromeHeadless",
         "lint": "ng lint"
     },
     "version": "1.0.0"

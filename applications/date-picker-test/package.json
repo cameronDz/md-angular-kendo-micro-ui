@@ -4,6 +4,7 @@
     "name": "Cam Dziurgot",
     "url": "http://camdziurgot.io"
   },
+  "description": "Proof of concept for testing Kendo Datepicker Angular component.",
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.901.9",
     "@angular/animations": "~9.0.1",
@@ -30,7 +31,7 @@
     "codelyzer": "^5.1.2",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~4.3.0",
+    "karma": "^5.2.2",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage-istanbul-reporter": "~2.1.0",
     "karma-jasmine": "~2.0.1",
@@ -42,18 +43,18 @@
     "typescript": "~3.7.5",
     "zone.js": "~0.10.2"
   },
-  "description": "POC application for testing Kendo Datepicker Angular component.",
   "license": "MIT",
-  "name": "md-date-picker",
+  "name": "@md/angular-kendo-date-picker-test",
   "private": true,
   "repository": {
+    "directory": "applications/date-picker-test",
     "type": "git",
-    "url": "https://github.com/cameronDz/md-angular-kendo-datepicker"
+    "url": "https://github.com/cameronDz/md-angular-kendo-micro-ui"
   },
   "scripts": {
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test --watch=false --code-coverage --browsers ChromeHeadless",
+    "test": "ng test --watch=false --code-coverage=true --browsers ChromeHeadless",
     "lint": "ng lint"
   },
   "version": "1.0.0"
