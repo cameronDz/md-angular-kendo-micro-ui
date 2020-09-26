@@ -27,6 +27,7 @@
     "karma-coverage-istanbul-reporter": "~3.0.2",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "ng-packagr": "^10.1.1",
     "protractor": "~7.0.0",
     "rxjs": "~6.6.0",
     "ts-node": "~8.3.0",
@@ -38,10 +39,12 @@
   "name": "libraries",
   "private": true,
   "scripts": {
-    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
   },
   "version": "0.0.0"
 }

@@ -19,6 +19,10 @@
       "simple-components": [
         "dist/simple-components/simple-components",
         "dist/simple-components"
+      ],
+      "overview-text": [
+        "dist/overview-text/overview-text",
+        "dist/overview-text"
       ]
     }
   }

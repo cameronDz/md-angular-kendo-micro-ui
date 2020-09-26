@@ -3,38 +3,38 @@
   "version": 1,
   "newProjectRoot": ".",
   "projects": {
-    "simple-components": {
+    "overview-text": {
       "projectType": "library",
-      "root": "simple-components",
-      "sourceRoot": "simple-components/src",
+      "root": "overview-text",
+      "sourceRoot": "overview-text/src",
       "prefix": "md",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "simple-components/tsconfig.lib.json",
-            "project": "simple-components/ng-package.json"
+            "tsConfig": "overview-text/tsconfig.lib.json",
+            "project": "overview-text/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "simple-components/tsconfig.lib.prod.json"
+              "tsConfig": "overview-text/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "simple-components/src/test.ts",
-            "tsConfig": "simple-components/tsconfig.spec.json",
-            "karmaConfig": "simple-components/karma.conf.js"
+            "main": "overview-text/src/test.ts",
+            "tsConfig": "overview-text/tsconfig.spec.json",
+            "karmaConfig": "overview-text/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "simple-components/tsconfig.lib.json",
-              "simple-components/tsconfig.spec.json"
+              "overview-text/tsconfig.lib.json",
+              "overview-text/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -42,6 +42,7 @@
           }
         }
       }
-    }},
-  "defaultProject": "simple-components"
+    }
+  },
+  "defaultProject": "overview-text"
 }

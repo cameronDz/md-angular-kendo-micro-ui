@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SimpleComponentsComponent } from './simple-components.component';
+import { OverviewTextComponent } from './overview-text.component';
 
-describe('SimpleComponentsComponent', () => {
-  let component: SimpleComponentsComponent;
-  let fixture: ComponentFixture<SimpleComponentsComponent>;
+describe('OverviewTextComponent', () => {
+  let component: OverviewTextComponent;
+  let fixture: ComponentFixture<OverviewTextComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SimpleComponentsComponent ]
+      declarations: [ OverviewTextComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SimpleComponentsComponent);
+    fixture = TestBed.createComponent(OverviewTextComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
