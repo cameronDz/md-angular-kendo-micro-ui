@@ -1,3 +1,11 @@
-<p>
-  overview-text works!
-</p>
+<div class="overview-container">
+  <div class="header-container">
+      <h4 *ngIf="title">{{title}}</h4>
+      <h6 *ngIf="subtitle">{{subtitle}}</h6>
+  </div>
+  <div class="text-container">
+      <ul *ngIf="hasPoints" class="points-list">
+          <li *ngFor="let point of points">{{point}}</li>
+      </ul>
+  </div>
+</div>
