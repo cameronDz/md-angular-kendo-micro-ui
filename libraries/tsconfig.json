@@ -23,6 +23,10 @@
       "overview-text": [
         "dist/overview-text/overview-text",
         "dist/overview-text"
+      ],
+      "footer": [
+        "dist/footer/footer",
+        "dist/footer"
       ]
     }
   }
