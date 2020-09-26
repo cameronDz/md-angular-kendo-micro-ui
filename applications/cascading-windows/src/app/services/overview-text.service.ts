@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-import { OverviewTextType } from './overview-text-type.model';
-import * as overviewPayload from '../../../assets/overviewPayload.json';
+import * as overviewPayload from '../../assets/overviewPayload.json';
 
 @Injectable({ providedIn: 'root' })
 export class OverviewTextService {
@@ -9,15 +8,15 @@ export class OverviewTextService {
 
     constructor() {}
 
-    public getOverviewTitle(type: OverviewTextType = OverviewTextType.NONE): string {
+    public getOverviewTitle(): string {
         return this.currentText.title;
     }
 
-    public getOverviewSubtitle(type: OverviewTextType = OverviewTextType.NONE): string {
+    public getOverviewSubtitle(): string {
         return this.currentText.subtitle;
     }
 
-    public getOverviewPoints(type: OverviewTextType = OverviewTextType.NONE): Array<string> {
+    public getOverviewPoints(): Array<string> {
         return this.currentText.points;
     }
 }
