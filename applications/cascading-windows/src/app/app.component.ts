@@ -8,11 +8,11 @@ import { OverviewTextService } from './services/overview-text.service';
 })
 export class AppComponent implements OnInit {
 
+  public footerHref: string = 'https://github.com/cameronDz/md-angular-kendo-micro-ui/applications/cascading-windows';
   public points: Array<string> = null;
   public subtitle: string = '';
   public title: string = '';
 
-  public footerHref: string = 'https://github.com/cameronDz/md-angular-kendo-micro-ui/applications/cascading-window';
   constructor(private overviewTextService: OverviewTextService) {}
 
   ngOnInit(): void {

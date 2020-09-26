@@ -10,6 +10,8 @@ export class AppComponent implements OnInit {
 
     public opened = false;
 
+    public footerHref: string = 'https://github.com/cameronDz/md-angular-kendo-micro-ui/applications/modal-windows';
+
     public overviewPoints: Array<string> = [];
     public overviewSubtitle: string = '';
     public overviewTitle: string = '';
