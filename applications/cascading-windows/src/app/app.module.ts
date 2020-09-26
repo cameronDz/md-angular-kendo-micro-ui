@@ -6,11 +6,11 @@ import { WindowModule } from '@progress/kendo-angular-dialog';
 
 import { AppComponent } from './app.component';
 import { CascadeWindowsButtonComponent } from './components/windows/window-buttons/cascade-windows-button/cascade-windows-button.component';
-import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { OpenWindowButtonComponent } from './components/windows/window-buttons/open-window-button/open-window-button.component';
 import { WindowRefTrackerService } from './components/windows/window-ref-tracker.service';
 
 import { FooterComponent } from '../../../../libraries/footer/src/lib/footer.component';
+import { HeaderComponent } from '../../../../libraries/header/src/lib/header.component';
 import { OverviewTextComponent } from '../../../../libraries/overview-text/src/lib/overview-text.component';
 
 @NgModule({
@@ -18,7 +18,7 @@ import { OverviewTextComponent } from '../../../../libraries/overview-text/src/l
     AppComponent,
     CascadeWindowsButtonComponent,
     FooterComponent,
-    NavBarComponent,
+    HeaderComponent,
     OpenWindowButtonComponent,
     OverviewTextComponent
   ],
