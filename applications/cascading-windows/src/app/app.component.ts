@@ -12,6 +12,7 @@ export class AppComponent implements OnInit {
   public subtitle: string = '';
   public title: string = '';
 
+  public footerHref: string = 'https://github.com/cameronDz/md-angular-kendo-micro-ui/applications/cascading-window';
   constructor(private overviewTextService: OverviewTextService) {}
 
   ngOnInit(): void {
