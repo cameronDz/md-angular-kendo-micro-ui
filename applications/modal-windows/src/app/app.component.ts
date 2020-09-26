@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { OverviewTextService } from './overview-text/overview-text.service';
+import { OverviewTextService } from './services/overview-text.service';
 
 @Component({
     selector: 'md-root',

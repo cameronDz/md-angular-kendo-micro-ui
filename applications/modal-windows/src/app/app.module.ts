@@ -8,22 +8,23 @@ import { AppComponent } from './app.component';
 import { ModalWindowComponent } from './modal-window/modal-window.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
-import { OverviewTextComponent } from './overview-text/overview-text.component';
+
+import { OverviewTextComponent } from '../../../../libraries/overview-text/src/lib/overview-text.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    FooterComponent,
     ModalWindowComponent,
     NavBarComponent,
-    FooterComponent,
     OverviewTextComponent
   ],
   imports: [
-      BrowserModule,
-      BrowserAnimationsModule,
-      WindowModule,
-      ButtonsModule
-    ],
+    BrowserAnimationsModule,
+    BrowserModule,
+    ButtonsModule,
+    WindowModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
