@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public title: string = 'md-angular-kendo-datepicker';
+  public footerHref: string = 'https://github.com/cameronDz/md-angular-kendo-micro-ui/applications/date-picker-test';
   public date: Date = new Date();
+  public title: string = 'md-angular-kendo-datepicker';
 
   public handleDateChange(newDate: Date): void {
     this.date = newDate;
