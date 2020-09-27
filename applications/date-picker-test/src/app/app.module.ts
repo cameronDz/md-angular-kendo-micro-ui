@@ -5,20 +5,22 @@ import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
 import { IntlModule } from '@progress/kendo-angular-intl';
 
 import { AppComponent } from './app.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { DatePickerComponent } from './date-picker/date-picker.component';
+import { FooterComponent } from '../../../../libraries/footer/src/lib/footer.component';
+import { HeaderComponent } from '../../../../libraries/header/src/lib/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
-    DatePickerComponent
+    DatePickerComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
-    IntlModule,
-    DateInputsModule
+    DateInputsModule,
+    IntlModule
   ],
   providers: [],
   bootstrap: [AppComponent]
