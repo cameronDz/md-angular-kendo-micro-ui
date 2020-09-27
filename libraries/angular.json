@@ -1,40 +1,40 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
-  "newProjectRoot": ".",
+  "newProjectRoot": "projects",
   "projects": {
     "overview-text": {
       "projectType": "library",
-      "root": "overview-text",
-      "sourceRoot": "overview-text/src",
+      "root": "projects/overview-text",
+      "sourceRoot": "projects/overview-text/src",
       "prefix": "md",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "overview-text/tsconfig.lib.json",
-            "project": "overview-text/ng-package.json"
+            "tsConfig": "projects/overview-text/tsconfig.lib.json",
+            "project": "projects/overview-text/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "overview-text/tsconfig.lib.prod.json"
+              "tsConfig": "projects/overview-text/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "overview-text/src/test.ts",
-            "tsConfig": "overview-text/tsconfig.spec.json",
-            "karmaConfig": "overview-text/karma.conf.js"
+            "main": "projects/overview-text/src/test.ts",
+            "tsConfig": "projects/overview-text/tsconfig.spec.json",
+            "karmaConfig": "projects/overview-text/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "overview-text/tsconfig.lib.json",
-              "overview-text/tsconfig.spec.json"
+              "projects/overview-text/tsconfig.lib.json",
+              "projects/overview-text/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -45,36 +45,36 @@
     },
     "footer": {
       "projectType": "library",
-      "root": "footer",
-      "sourceRoot": "footer/src",
-      "prefix": "lib",
+      "root": "projects/footer",
+      "sourceRoot": "projects/footer/src",
+      "prefix": "md",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "footer/tsconfig.lib.json",
-            "project": "footer/ng-package.json"
+            "tsConfig": "projects/footer/tsconfig.lib.json",
+            "project": "projects/footer/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "footer/tsconfig.lib.prod.json"
+              "tsConfig": "projects/footer/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "footer/src/test.ts",
-            "tsConfig": "footer/tsconfig.spec.json",
-            "karmaConfig": "footer/karma.conf.js"
+            "main": "projects/footer/src/test.ts",
+            "tsConfig": "projects/footer/tsconfig.spec.json",
+            "karmaConfig": "projects/footer/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "footer/tsconfig.lib.json",
-              "footer/tsconfig.spec.json"
+              "projects/footer/tsconfig.lib.json",
+              "projects/footer/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -85,36 +85,36 @@
     },
     "header": {
       "projectType": "library",
-      "root": "header",
-      "sourceRoot": "header/src",
+      "root": "projects/header",
+      "sourceRoot": "projects/header/src",
       "prefix": "md",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "header/tsconfig.lib.json",
-            "project": "header/ng-package.json"
+            "tsConfig": "projects/header/tsconfig.lib.json",
+            "project": "projects/header/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "header/tsconfig.lib.prod.json"
+              "tsConfig": "projects/header/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "header/src/test.ts",
-            "tsConfig": "header/tsconfig.spec.json",
-            "karmaConfig": "header/karma.conf.js"
+            "main": "projects/header/src/test.ts",
+            "tsConfig": "projects/header/tsconfig.spec.json",
+            "karmaConfig": "projects/header/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "header/tsconfig.lib.json",
-              "header/tsconfig.spec.json"
+              "projects/header/tsconfig.lib.json",
+              "projects/header/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -124,5 +124,5 @@
       }
     }
   },
-  "defaultProject": "overview-text"
+  "defaultProject": "header"
 }
