@@ -9,9 +9,9 @@ import { CascadeWindowsButtonComponent } from './components/windows/window-butto
 import { OpenWindowButtonComponent } from './components/windows/window-buttons/open-window-button/open-window-button.component';
 import { WindowRefTrackerService } from './components/windows/window-ref-tracker.service';
 
-import { FooterComponent } from '../../../../libraries/footer/src/lib/footer.component';
-import { HeaderComponent } from '../../../../libraries/header/src/lib/header.component';
-import { OverviewTextComponent } from '../../../../libraries/overview-text/src/lib/overview-text.component';
+import { FooterComponent } from '../../../../libraries/projects/footer/src/lib/footer.component';
+import { HeaderComponent } from '../../../../libraries/projects/header/src/lib/header.component';
+import { OverviewTextComponent } from '../../../../libraries/projects/overview-text/src/lib/overview-text.component';
 
 @NgModule({
   declarations: [
