@@ -49,7 +49,7 @@
   "name": "@md/angular-kendo-cascading-windows",
   "private": true,
   "repository": {
-    "directory": "/applications/cascading-window",
+    "directory": "/applications/cascading-windows",
     "type": "git",
     "url": "https://github.com/cameronDz/md-angular-kendo-micro-ui"
   },

@@ -9,7 +9,7 @@ import * as _package from '../../package.json';
 })
 export class AppComponent implements OnInit {
 
-  public footerHref: string = _package.repository.url + _package.repository.directory;
+  public footerHref: string = _package.repository.url + '/tree/master' + _package.repository.directory;
   public points: Array<string> = null;
   public subtitle: string = '';
   public title: string = '';
