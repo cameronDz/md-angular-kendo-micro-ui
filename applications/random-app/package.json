@@ -53,7 +53,7 @@
     "zone.js": "~0.9.1"
   },
   "license": "MIT",
-  "name": "@md/angular-kendo-random-app",
+  "name": "@nssd/angular-kendo-random-app",
   "private": false,
   "repository": {
     "directory": "applications/random-app",
