@@ -1,6 +1,5 @@
 # MDAK Cascading Windows #
 
-
 ## Angular Generated Documentatoin ##
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.

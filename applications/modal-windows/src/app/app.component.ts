@@ -1,16 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { OverviewTextService } from './services/overview-text.service';
+import * as _package from '../../package.json';
 
 @Component({
-    selector: 'md-root',
+    selector: 'mdak-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
 
-    public opened = false;
 
-    public footerHref: string = 'https://github.com/cameronDz/md-angular-kendo-micro-ui/applications/modal-windows';
+    public footerHref: string = _package.repository.url + '/tree/master' + _package.repository.directory;
+    public opened = false;
 
     public overviewPoints: Array<string> = [];
     public overviewSubtitle: string = '';
