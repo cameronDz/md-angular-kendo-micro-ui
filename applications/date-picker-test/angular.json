@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "md-angular-kendo-datepicker": {
+    "mdak-datepicker-test": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/md-angular-kendo-datepicker",
+            "outputPath": "dist/mdak-datepicker-test",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "md-angular-kendo-datepicker:build"
+            "browserTarget": "mdak-datepicker-test:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "md-angular-kendo-datepicker:build:production"
+              "browserTarget": "mdak-datepicker-test:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "md-angular-kendo-datepicker:build"
+            "browserTarget": "mdak-datepicker-test:build"
           }
         },
         "test": {
@@ -113,5 +113,5 @@
         }
       }
     }},
-  "defaultProject": "md-angular-kendo-datepicker"
+  "defaultProject": "mdak-datepicker-test"
 }

@@ -11,7 +11,7 @@ module.exports = function (config) {
     },
     colors: true,
     coverageIstanbulReporter: {
-      dir: require('path').join(__dirname, './coverage/md-angular-kendo-cascading-windows'),
+      dir: require('path').join(__dirname, './coverage/mdak-cascading-windows'),
       fixWebpackSourcePaths: true,
       reports: ['html', 'lcovonly', 'text-summary']
     },
