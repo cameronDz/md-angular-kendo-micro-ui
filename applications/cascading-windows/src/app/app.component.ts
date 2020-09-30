@@ -3,7 +3,7 @@ import { OverviewTextService } from './services/overview-text.service';
 import * as _package from '../../package.json';
 
 @Component({
-  selector: 'mdak-root',
+  selector: 'nssd-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })

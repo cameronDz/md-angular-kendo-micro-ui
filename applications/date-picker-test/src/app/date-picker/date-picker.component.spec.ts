@@ -8,10 +8,10 @@ import { DatePickerComponent } from './date-picker.component';
 
 @Component({ template:
 `<div *ngIf="showComponent">
-  <mdak-date-picker
+  <nssd-date-picker
     [date]="date"
     (onValueChange)="handleValueChange($event)">
-  </mdak-date-picker>
+  </nssd-date-picker>
 </div>`})
 class TestWrapperComponent {
   public showComponent: boolean = false;

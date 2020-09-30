@@ -10,7 +10,7 @@ import { HeaderComponent } from '../../../../libraries/projects/header/src/lib/h
 
 @Component({ template:
 `<div *ngIf="showComponent">
-  <mdak-root></mdak-root>
+  <nssd-root></nssd-root>
 </div>`})
 class TestWrapperComponent {
   public showComponent: boolean = false;
@@ -45,16 +45,16 @@ describe('AppComponent', (): void => {
     component.showComponent = true;
     fixture.detectChanges();
 
-    const app: HTMLElement = fixture.nativeElement.querySelector('mdak-root');
+    const app: HTMLElement = fixture.nativeElement.querySelector('nssd-root');
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'MDAK Datepick Test'`, (): void => {
+  it(`should have as title 'NSSD Datepick Test'`, (): void => {
     component.showComponent = true;
     fixture.detectChanges();
 
-    const app: HTMLElement = fixture.nativeElement.querySelector('mdak-root .content .jumbotron');
+    const app: HTMLElement = fixture.nativeElement.querySelector('nssd-root .content .jumbotron');
     const title: string = app.innerHTML.trim();
-    expect(title).toEqual('MDAK Datepick Test');
+    expect(title).toEqual('NSSD Datepick Test');
   });
 });

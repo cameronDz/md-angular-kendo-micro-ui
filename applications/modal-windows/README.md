@@ -1,4 +1,4 @@
-# MDAK Modal Window #
+# NSSD Modal Window #
 
 ## Angular Generated Documentatoin ##
 

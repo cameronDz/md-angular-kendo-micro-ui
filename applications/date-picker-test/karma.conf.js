@@ -11,7 +11,7 @@ module.exports = function (config) {
     },
     colors: true,
     coverageIstanbulReporter: {
-      dir: require('path').join(__dirname, './coverage/mdak-datepicker-test'),
+      dir: require('path').join(__dirname, './coverage/nssd-datepicker-test'),
       fixWebpackSourcePaths: true,
       reports: ['html', 'lcovonly', 'text-summary']
     },

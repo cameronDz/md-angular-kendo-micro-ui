@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mdak-modal-windows": {
+    "nssd-modal-windows": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -12,12 +12,12 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "mdak",
+      "prefix": "nssd",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/mdak-modal-windows",
+            "outputPath": "dist/nssd-modal-windows",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "mdak-modal-windows:build"
+            "browserTarget": "nssd-modal-windows:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "mdak-modal-windows:build:production"
+              "browserTarget": "nssd-modal-windows:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mdak-modal-windows:build"
+            "browserTarget": "nssd-modal-windows:build"
           }
         },
         "test": {
@@ -113,5 +113,5 @@
         }
       }
     }},
-  "defaultProject": "mdak-modal-windows"
+  "defaultProject": "nssd-modal-windows"
 }

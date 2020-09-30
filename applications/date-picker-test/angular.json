@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mdak-datepicker-test": {
+    "nssd-datepicker-test": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -12,12 +12,12 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "mdak",
+      "prefix": "nssd",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/mdak-datepicker-test",
+            "outputPath": "dist/nssd-datepicker-test",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "mdak-datepicker-test:build"
+            "browserTarget": "nssd-datepicker-test:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "mdak-datepicker-test:build:production"
+              "browserTarget": "nssd-datepicker-test:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mdak-datepicker-test:build"
+            "browserTarget": "nssd-datepicker-test:build"
           }
         },
         "test": {
@@ -113,5 +113,5 @@
         }
       }
     }},
-  "defaultProject": "mdak-datepicker-test"
+  "defaultProject": "nssd-datepicker-test"
 }

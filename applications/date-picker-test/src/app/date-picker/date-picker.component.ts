@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'mdak-date-picker',
+  selector: 'nssd-date-picker',
   templateUrl: './date-picker.component.html',
   styleUrls: ['./date-picker.component.scss']
 })

@@ -6,10 +6,10 @@
         [subtitle]="overviewSubtitle"
         [title]="overviewTitle">
     </md-overview-text>
-    <mdak-modal-window *ngIf="opened"
+    <nssd-modal-window *ngIf="opened"
         [isOpen]="opened"
         (handleWindowClose)="close()">
-    </mdak-modal-window>
+    </nssd-modal-window>
 </div>
 <md-footer [sourceCodeRepo]="footerHref"></md-footer>
 <div class="k-overlay no-click" *ngIf="opened"></div>

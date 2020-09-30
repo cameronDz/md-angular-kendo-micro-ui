@@ -20,13 +20,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "mdak",
+      "nssd",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "mdak",
+      "nssd",
       "kebab-case"
     ],
     "eofline": true,

@@ -14,7 +14,7 @@ import { OverviewTextComponent } from '../../../../libraries/projects/overview-t
 
 @Component({ template:
 `<div *ngIf="showComponent">
-  <mdak-root></mdak-root>
+  <nssd-root></nssd-root>
 </div>` })
 class TestWrapperComponent {
   public showComponent: boolean = false;

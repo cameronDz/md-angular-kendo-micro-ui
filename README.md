@@ -1,4 +1,4 @@
-# MD Micro-Frontend #
+# NSSD Micro UI #
 This mono repo is used for creating Angular Kendo UI applications to be used in an example Microfrontend web application.
 
 ### Project Creation ###

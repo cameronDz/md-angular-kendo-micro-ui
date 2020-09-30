@@ -11,7 +11,7 @@ module.exports = function (config) {
     },
     colors: true,
     coverageIstanbulReporter: {
-      dir: require('path').join(__dirname, './coverage/mdak-cascading-windows'),
+      dir: require('path').join(__dirname, './coverage/nssd-cascading-windows'),
       fixWebpackSourcePaths: true,
       reports: ['html', 'lcovonly', 'text-summary']
     },

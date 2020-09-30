@@ -3,7 +3,7 @@ import { WindowRefTrackerService } from '../../window-ref-tracker.service';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'mdak-cascade-windows-button',
+  selector: 'nssd-cascade-windows-button',
   templateUrl: './cascade-windows-button.component.html'
 })
 export class CascadeWindowsButtonComponent implements OnDestroy, OnInit {

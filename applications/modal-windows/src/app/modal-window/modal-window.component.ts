@@ -6,7 +6,7 @@ enum InputProperty {
 }
 
 @Component({
-    selector: 'mdak-modal-window',
+    selector: 'nssd-modal-window',
     templateUrl: './modal-window.component.html',
     styleUrls: ['./modal-window.component.scss']
 })

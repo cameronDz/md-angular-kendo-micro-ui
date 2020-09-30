@@ -3,7 +3,7 @@ import { WindowCloseResult, WindowRef, WindowService, WindowSettings } from '@pr
 import { WindowRefTrackerService } from '../../window-ref-tracker.service';
 
 @Component({
-  selector: 'mdak-open-window-button',
+  selector: 'nssd-open-window-button',
   templateUrl: './open-window-button.component.html'
 })
 export class OpenWindowButtonComponent implements OnInit {

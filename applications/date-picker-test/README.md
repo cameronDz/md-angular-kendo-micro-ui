@@ -1,4 +1,4 @@
-# MDAK Date Picker #
+# NSSD Date Picker #
 
 ## Angular Generated Documentation ##
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
