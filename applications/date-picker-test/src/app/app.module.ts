@@ -10,7 +10,6 @@ import { DatePickerComponent } from './date-picker/date-picker.component';
 import { FooterComponent } from '../../../../libraries/projects/footer/src/lib/footer.component';
 import { HeaderComponent } from '../../../../libraries/projects/header/src/lib/header.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,4 +26,4 @@ import { HeaderComponent } from '../../../../libraries/projects/header/src/lib/h
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

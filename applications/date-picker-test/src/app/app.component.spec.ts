@@ -1,28 +1,30 @@
-import {  async, TestBed, TestModuleMetadata, ComponentFixture } from '@angular/core/testing';
+import { waitForAsync, TestBed, TestModuleMetadata, ComponentFixture } from '@angular/core/testing';
 import { Component } from '@angular/core';
 import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
 
 import { AppComponent } from './app.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
+
 import { DatePickerComponent } from './date-picker/date-picker.component';
+import { FooterComponent } from '../../../../libraries/projects/footer/src/lib/footer.component';
+import { HeaderComponent } from '../../../../libraries/projects/header/src/lib/header.component';
 
 @Component({ template:
 `<div *ngIf="showComponent">
-  <md-root></md-root>
+  <mdak-root></mdak-root>
 </div>`})
 class TestWrapperComponent {
   public showComponent: boolean = false;
 }
 
-describe('AppComponent', () => {
+describe('AppComponent', (): void => {
   let component: TestWrapperComponent;
   let fixture: ComponentFixture<TestWrapperComponent>;
-
   const testConfig: TestModuleMetadata = {
     declarations: [
       AppComponent,
+      FooterComponent,
+      HeaderComponent,
       DatePickerComponent,
-      NavBarComponent,
       TestWrapperComponent
     ],
     imports: [
@@ -30,29 +32,29 @@ describe('AppComponent', () => {
     ]
   };
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync((): void => {
     TestBed.configureTestingModule(testConfig).compileComponents();
   }));
 
-  beforeEach(() => {
+  beforeEach((): void => {
     fixture = TestBed.createComponent(TestWrapperComponent);
     component = fixture.componentInstance;
   });
 
-  it('should create the app', () => {
+  it('should create the app', (): void => {
     component.showComponent = true;
     fixture.detectChanges();
 
-    const app: HTMLElement = fixture.nativeElement.querySelector('md-root');
+    const app: HTMLElement = fixture.nativeElement.querySelector('mdak-root');
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'md-angular-kendo-datepicker'`, () => {
+  it(`should have as title 'MDAK Datepick Test'`, (): void => {
     component.showComponent = true;
     fixture.detectChanges();
 
-    const app: HTMLElement = fixture.nativeElement.querySelector('md-root .content .jumbotron');
+    const app: HTMLElement = fixture.nativeElement.querySelector('mdak-root .content .jumbotron');
     const title: string = app.innerHTML.trim();
-    expect(title).toEqual('md-angular-kendo-datepicker');
+    expect(title).toEqual('MDAK Datepick Test');
   });
 });

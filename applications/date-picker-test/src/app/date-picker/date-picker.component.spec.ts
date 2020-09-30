@@ -1,17 +1,17 @@
 import { Component, ElementRef } from '@angular/core';
-import { async, ComponentFixture, TestBed, TestModuleMetadata } from '@angular/core/testing';
+import { waitForAsync, ComponentFixture, TestBed, TestModuleMetadata } from '@angular/core/testing';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
 import { POPUP_CONTAINER } from '@progress/kendo-angular-popup';
 
 import { DatePickerComponent } from './date-picker.component';
 
-@Component({ selector: 'md-test-wrapper', template:
+@Component({ template:
 `<div *ngIf="showComponent">
-  <md-date-picker
+  <mdak-date-picker
     [date]="date"
     (onValueChange)="handleValueChange($event)">
-  </md-date-picker>
+  </mdak-date-picker>
 </div>`})
 class TestWrapperComponent {
   public showComponent: boolean = false;
@@ -41,7 +41,7 @@ describe('DatePickerComponent', () => {
     }]
   };
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule(testConfig).compileComponents();
   }));
 
