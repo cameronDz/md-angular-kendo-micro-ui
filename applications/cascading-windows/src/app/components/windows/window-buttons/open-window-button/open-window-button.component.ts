@@ -3,9 +3,8 @@ import { WindowCloseResult, WindowRef, WindowService, WindowSettings } from '@pr
 import { WindowRefTrackerService } from '../../window-ref-tracker.service';
 
 @Component({
-  selector: 'md-open-window-button',
-  templateUrl: './open-window-button.component.html',
-  styleUrls: ['./open-window-button.component.scss']
+  selector: 'mdak-open-window-button',
+  templateUrl: './open-window-button.component.html'
 })
 export class OpenWindowButtonComponent implements OnInit {
 

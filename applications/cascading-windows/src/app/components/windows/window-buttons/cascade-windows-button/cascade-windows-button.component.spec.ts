@@ -1,10 +1,10 @@
-import { async, ComponentFixture, TestBed, TestModuleMetadata } from '@angular/core/testing';
+import { waitForAsync, ComponentFixture, TestBed, TestModuleMetadata } from '@angular/core/testing';
 import { DialogModule, WindowContainerService, WindowService } from '@progress/kendo-angular-dialog';
 
 import { WindowRefTrackerService } from '../../window-ref-tracker.service';
 import { CascadeWindowsButtonComponent } from './cascade-windows-button.component';
 
-describe('CascadeWindowsButtonComponent', () => {
+describe('CascadeWindowsButtonComponent', (): void => {
   let component: CascadeWindowsButtonComponent;
   let fixture: ComponentFixture<CascadeWindowsButtonComponent>;
   const config: TestModuleMetadata = {
@@ -21,17 +21,17 @@ describe('CascadeWindowsButtonComponent', () => {
     ]
   };
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync((): void => {
     TestBed.configureTestingModule(config).compileComponents();
   }));
 
-  beforeEach(() => {
+  beforeEach((): void => {
     fixture = TestBed.createComponent(CascadeWindowsButtonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should create', (): void => {
     expect(component).toBeTruthy();
   });
 });

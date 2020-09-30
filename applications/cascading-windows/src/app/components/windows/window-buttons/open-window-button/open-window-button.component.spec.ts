@@ -1,10 +1,10 @@
-import { async, ComponentFixture, TestBed, TestModuleMetadata } from '@angular/core/testing';
+import { waitForAsync, ComponentFixture, TestBed, TestModuleMetadata } from '@angular/core/testing';
 import { DialogModule, WindowContainerService, WindowService } from '@progress/kendo-angular-dialog';
 
 import { WindowRefTrackerService } from '../../window-ref-tracker.service';
 import { OpenWindowButtonComponent } from './open-window-button.component';
 
-describe('OpenWindowButtonComponent', () => {
+describe('OpenWindowButtonComponent', (): void => {
   let component: OpenWindowButtonComponent;
   let fixture: ComponentFixture<OpenWindowButtonComponent>;
   const config: TestModuleMetadata = {
@@ -21,17 +21,17 @@ describe('OpenWindowButtonComponent', () => {
     ]
   };
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync((): void => {
     TestBed.configureTestingModule(config).compileComponents();
   }));
 
-  beforeEach(() => {
+  beforeEach((): void => {
     fixture = TestBed.createComponent(OpenWindowButtonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should create', (): void => {
     expect(component).toBeTruthy();
   });
 });

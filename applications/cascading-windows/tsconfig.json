@@ -1,16 +1,19 @@
 {
-  "compileOnSave": false,
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  },
   "compilerOptions": {
-    "resolveJsonModule": true,
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    "importHelpers": true,
     "module": "es2020",
     "moduleResolution": "node",
-    "importHelpers": true,
+    "outDir": "./dist/out-tsc",
+    "resolveJsonModule": true,
+    "sourceMap": true,
     "target": "es2015",
     "typeRoots": [
       "node_modules/@types"
@@ -20,8 +23,5 @@
       "dom"
     ]
   },
-  "angularCompilerOptions": {
-    "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
-  }
+  "compileOnSave": false
 }

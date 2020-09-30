@@ -1,19 +1,20 @@
 import { Component } from '@angular/core';
-import { TestBed, async, TestModuleMetadata, ComponentFixture } from '@angular/core/testing';
+import { waitForAsync, ComponentFixture, TestBed, TestModuleMetadata } from '@angular/core/testing';
 import { DialogModule, WindowContainerService, WindowService } from '@progress/kendo-angular-dialog';
 
 import { WindowRefTrackerService } from './components/windows/window-ref-tracker.service';
 
 import { AppComponent } from './app.component';
-import { NavBarComponent } from './components/nav-bar/nav-bar.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { CascadeWindowsButtonComponent } from './components/windows/window-buttons/cascade-windows-button/cascade-windows-button.component';
 import { OpenWindowButtonComponent } from './components/windows/window-buttons/open-window-button/open-window-button.component';
-import { OverviewTextComponent } from './components/overview-text/overview-text.component';
+
+import { FooterComponent } from '../../../../libraries/projects/footer/src/lib/footer.component';
+import { HeaderComponent } from '../../../../libraries/projects/header/src/lib/header.component';
+import { OverviewTextComponent } from '../../../../libraries/projects/overview-text/src/lib/overview-text.component';
 
 @Component({ template:
 `<div *ngIf="showComponent">
-  <md-root></md-root>
+  <mdak-root></mdak-root>
 </div>` })
 class TestWrapperComponent {
   public showComponent: boolean = false;
@@ -27,7 +28,7 @@ describe('AppComponent', (): void => {
       AppComponent,
       CascadeWindowsButtonComponent,
       FooterComponent,
-      NavBarComponent,
+      HeaderComponent,
       OpenWindowButtonComponent,
       OverviewTextComponent,
       TestWrapperComponent
@@ -42,7 +43,7 @@ describe('AppComponent', (): void => {
     ]
   };
 
-  beforeEach(async((): void => {
+  beforeEach(waitForAsync((): void => {
     TestBed.configureTestingModule(testConfig).compileComponents();
   }));
 
