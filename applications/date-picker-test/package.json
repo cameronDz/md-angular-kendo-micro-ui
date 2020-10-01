@@ -49,7 +49,7 @@
   "repository": {
     "directory": "applications/date-picker-test",
     "type": "git",
-    "url": "https://github.com/cameronDz/md-angular-kendo-micro-ui"
+    "url": "https://github.com/cameronDz/nssd-micro-ui"
   },
   "scripts": {
     "start": "ng serve",

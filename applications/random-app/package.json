@@ -58,7 +58,7 @@
   "repository": {
     "directory": "applications/random-app",
     "type": "git",
-    "url": "https://github.com/cameronDz/md-angular-kendo-micro-ui"
+    "url": "https://github.com/cameronDz/nssd-micro-ui"
   },
   "scripts": {
     "start": "ng serve",
