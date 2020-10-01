@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "projects/overview-text",
       "sourceRoot": "projects/overview-text/src",
-      "prefix": "md",
+      "prefix": "nssd",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
@@ -47,7 +47,7 @@
       "projectType": "library",
       "root": "projects/footer",
       "sourceRoot": "projects/footer/src",
-      "prefix": "md",
+      "prefix": "nssd",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
@@ -87,7 +87,7 @@
       "projectType": "library",
       "root": "projects/header",
       "sourceRoot": "projects/header/src",
-      "prefix": "md",
+      "prefix": "nssd",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",

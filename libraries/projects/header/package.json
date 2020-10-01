@@ -1,11 +1,11 @@
 {
-  "name": "header",
-  "version": "0.0.1",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "name": "@nssd/ak-header",
   "peerDependencies": {
     "@angular/common": "^10.1.3",
     "@angular/core": "^10.1.3"
   },
-  "dependencies": {
-    "tslib": "^2.0.0"
-  }
+  "version": "0.0.1"
 }

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'md-header',
+  selector: 'nssd-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })

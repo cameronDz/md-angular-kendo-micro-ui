@@ -2,36 +2,32 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
-    "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2015",
-    "module": "es2020",
     "lib": [
-      "es2018",
-      "dom"
+      "dom",
+      "es2018"
     ],
+    "module": "es2020",
+    "moduleResolution": "node",
+    "outDir": "./dist/out-tsc",
     "paths": {
-      "simple-components": [
-        "dist/simple-components/simple-components",
-        "dist/simple-components"
-      ],
-      "overview-text": [
-        "dist/overview-text/overview-text",
-        "dist/overview-text"
-      ],
       "footer": [
-        "dist/footer/footer",
-        "dist/footer"
+        "dist/footer",
+        "dist/footer/footer"
       ],
       "header": [
-        "dist/header/header",
-        "dist/header"
+        "dist/header",
+        "dist/header/header"
+      ],
+      "overview-text": [
+        "dist/overview-text",
+        "dist/overview-text/overview-text"
       ]
-    }
+    },
+    "sourceMap": true,
+    "target": "es2015"
   }
 }

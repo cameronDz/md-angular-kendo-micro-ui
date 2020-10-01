@@ -1,7 +1,7 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 
 @Component({
-  selector: 'md-overview-text',
+  selector: 'nssd-overview-text',
   templateUrl: './overview-text.component.html',
   styleUrls: [ './overview-text.component.scss']
 })
