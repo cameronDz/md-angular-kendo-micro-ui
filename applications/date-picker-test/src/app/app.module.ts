@@ -7,15 +7,15 @@ import { IntlModule } from '@progress/kendo-angular-intl';
 import { AppComponent } from './app.component';
 import { DatePickerComponent } from './date-picker/date-picker.component';
 
-import { FooterComponent } from '../../../../libraries/projects/footer/src/lib/footer.component';
-import { HeaderComponent } from '../../../../libraries/projects/header/src/lib/header.component';
+// import { FooterComponent } from '../../../../libraries/projects/footer/src/lib/footer.component';
+// import { HeaderComponent } from '../../../../libraries/projects/header/src/lib/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DatePickerComponent,
-    FooterComponent,
-    HeaderComponent
+    // FooterComponent,
+    // HeaderComponent
   ],
   imports: [
     BrowserAnimationsModule,

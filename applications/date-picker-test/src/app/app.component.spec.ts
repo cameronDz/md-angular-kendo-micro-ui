@@ -5,8 +5,8 @@ import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
 import { AppComponent } from './app.component';
 
 import { DatePickerComponent } from './date-picker/date-picker.component';
-import { FooterComponent } from '../../../../libraries/projects/footer/src/lib/footer.component';
-import { HeaderComponent } from '../../../../libraries/projects/header/src/lib/header.component';
+// import { FooterComponent } from '../../../../libraries/projects/footer/src/lib/footer.component';
+// import { HeaderComponent } from '../../../../libraries/projects/header/src/lib/header.component';
 
 @Component({ template:
 `<div *ngIf="showComponent">
@@ -22,8 +22,8 @@ describe('AppComponent', (): void => {
   const testConfig: TestModuleMetadata = {
     declarations: [
       AppComponent,
-      FooterComponent,
-      HeaderComponent,
+      // FooterComponent,
+      // HeaderComponent,
       DatePickerComponent,
       TestWrapperComponent
     ],
