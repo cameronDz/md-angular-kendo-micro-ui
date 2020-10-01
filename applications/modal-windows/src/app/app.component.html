@@ -1,7 +1,7 @@
-<md-header></md-header>
+<nssd-header></md-header>
 <div class="example-wrapper">
     <button class="window-button" kendoButton (click)="open()">Open Window Button</button>
-    <md-overview-text
+    <nssd-overview-text
         [points]="overviewPoints"
         [subtitle]="overviewSubtitle"
         [title]="overviewTitle">
@@ -11,5 +11,5 @@
         (handleWindowClose)="close()">
     </nssd-modal-window>
 </div>
-<md-footer [sourceCodeRepo]="footerHref"></md-footer>
+<nssd-footer [sourceCodeRepo]="footerHref"></md-footer>
 <div class="k-overlay no-click" *ngIf="opened"></div>
