@@ -6,3 +6,14 @@ html, body {
 .no-click {
     pointer-events: none;
 }
+
+.window-container {
+  .window-behind-overlay {
+    z-index: 1000 !important;
+  }
+
+  .k-content.k-window-content {
+    background-color: white;
+    height: 100%;
+  }
+}
