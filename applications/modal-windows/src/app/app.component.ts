@@ -10,7 +10,7 @@ import * as _package from '../../package.json';
 export class AppComponent implements OnInit {
 
 
-    public footerHref: string = _package.repository.url + '/tree/master' + _package.repository.directory;
+    public footerHref: string = '';
     public opened = false;
 
     public overviewPoints: Array<string> = [];
@@ -23,6 +23,7 @@ export class AppComponent implements OnInit {
         this.overviewPoints = this.overviewTextService.getOverviewPoints();
         this.overviewSubtitle = this.overviewTextService.getOverviewSubtitle();
         this.overviewTitle = this.overviewTextService.getOverviewTitle();
+        this.setFooterHref();
     }
 
     public close() {
@@ -31,5 +32,14 @@ export class AppComponent implements OnInit {
 
     public open() {
         this.opened = true;
+    }
+
+    private setFooterHref(): void {
+      if (!!_package && !!_package.repository) {
+        const treeRoute: string = '/tree/master';
+        const url: string = !!_package.repository.url ? _package.repository.url + treeRoute : '';
+        const directory: string = !!_package.repository.directory ? _package.repository.directory : '';
+        this.footerHref = url + directory;
+      }
     }
 }
