@@ -12,6 +12,7 @@ enum InputProperty {
 })
 export class ModalWindowComponent implements OnChanges, OnInit {
 
+    public readonly BEHIND_OVERLAY_CLASS: string = 'window-behind-overlay';
     public readonly NO_CLICK_CLASS: string = 'no-click';
 
     @Input() height: number = 400;
