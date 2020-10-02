@@ -4,20 +4,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ButtonsModule } from '@progress/kendo-angular-buttons';
 import { WindowModule } from '@progress/kendo-angular-dialog';
 
+import { FooterComponent } from '@nssd/ng-footer';
+import { HeaderComponent } from '@nssd/ng-header';
+import { OverviewTextComponent } from '@nssd/ng-overview-text';
+
 import { AppComponent } from './app.component';
 import { ModalWindowComponent } from './modal-window/modal-window.component';
-
-// import { FooterComponent } from '../../../../libraries/projects/footer/src/lib/footer.component';
-// import { HeaderComponent } from '../../../../libraries/projects/header/src/lib/header.component';
-// import { OverviewTextComponent } from '../../../../libraries/projects/overview-text/src/lib/overview-text.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    // FooterComponent,
-    // HeaderComponent,
+    FooterComponent,
+    HeaderComponent,
     ModalWindowComponent,
-    // OverviewTextComponent
+    OverviewTextComponent
   ],
   imports: [
     BrowserAnimationsModule,

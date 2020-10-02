@@ -1,22 +1,29 @@
-import { waitForAsync, TestBed } from '@angular/core/testing';
+import { waitForAsync, TestBed, TestModuleMetadata } from '@angular/core/testing';
+import { WindowModule } from '@progress/kendo-angular-dialog';
+
+import { FooterComponent } from '@nssd/ng-footer';
+import { HeaderComponent } from '@nssd/ng-header';
+import { OverviewTextComponent } from '@nssd/ng-overview-text';
+
 import { AppComponent } from './app.component';
 import { ModalWindowComponent } from './modal-window/modal-window.component';
 
-// import { FooterComponent } from '../../../../libraries/projects/footer/src/lib/footer.component';
-// import { HeaderComponent } from '../../../../libraries/projects/header/src/lib/header.component';
-// import { OverviewTextComponent } from '../../../../libraries/projects/overview-text/src/lib/overview-text.component';
-
 describe('AppComponent', (): void => {
+  const config: TestModuleMetadata = {
+    declarations: [
+      AppComponent,
+      FooterComponent,
+      HeaderComponent,
+      ModalWindowComponent,
+      OverviewTextComponent
+    ],
+    imports: [
+      WindowModule
+    ]
+  };
+
   beforeEach(waitForAsync((): void => {
-    TestBed.configureTestingModule({
-      declarations: [
-        AppComponent,
-        // FooterComponent,
-        // HeaderComponent,
-        ModalWindowComponent,
-        // OverviewTextComponent
-      ]
-    }).compileComponents();
+    TestBed.configureTestingModule(config).compileComponents();
   }));
 
   it('should create the app', (): void => {
