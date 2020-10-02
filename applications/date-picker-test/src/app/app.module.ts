@@ -4,18 +4,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
 import { IntlModule } from '@progress/kendo-angular-intl';
 
+import { FooterComponent } from '@nssd/ng-footer';
+import { HeaderComponent } from '@nssd/ng-header';
+
 import { AppComponent } from './app.component';
 import { DatePickerComponent } from './date-picker/date-picker.component';
-
-// import { FooterComponent } from '../../../../libraries/projects/footer/src/lib/footer.component';
-// import { HeaderComponent } from '../../../../libraries/projects/header/src/lib/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DatePickerComponent,
-    // FooterComponent,
-    // HeaderComponent
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserAnimationsModule,
