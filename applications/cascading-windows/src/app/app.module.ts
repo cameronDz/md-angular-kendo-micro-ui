@@ -4,23 +4,23 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ButtonsModule } from '@progress/kendo-angular-buttons';
 import { WindowModule } from '@progress/kendo-angular-dialog';
 
+import { FooterComponent } from '@nssd/ng-footer';
+import { HeaderComponent } from '@nssd/ng-header';
+import { OverviewTextComponent } from '@nssd/ng-overview-text';
+
 import { AppComponent } from './app.component';
 import { CascadeWindowsButtonComponent } from './components/windows/window-buttons/cascade-windows-button/cascade-windows-button.component';
 import { OpenWindowButtonComponent } from './components/windows/window-buttons/open-window-button/open-window-button.component';
 import { WindowRefTrackerService } from './components/windows/window-ref-tracker.service';
 
-// import { FooterComponent } from '../../../../libraries/projects/footer/src/lib/footer.component';
-// import { HeaderComponent } from '../../../../libraries/projects/header/src/lib/header.component';
-// import { OverviewTextComponent } from '../../../../libraries/projects/overview-text/src/lib/overview-text.component';
-
 @NgModule({
   declarations: [
     AppComponent,
     CascadeWindowsButtonComponent,
-    // FooterComponent,
-    // HeaderComponent,
+    FooterComponent,
+    HeaderComponent,
     OpenWindowButtonComponent,
-    // OverviewTextComponent
+    OverviewTextComponent
   ],
   imports: [
     BrowserAnimationsModule,

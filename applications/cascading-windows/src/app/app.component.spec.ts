@@ -2,15 +2,15 @@ import { Component } from '@angular/core';
 import { waitForAsync, ComponentFixture, TestBed, TestModuleMetadata } from '@angular/core/testing';
 import { DialogModule, WindowContainerService, WindowService } from '@progress/kendo-angular-dialog';
 
+import { FooterComponent } from '@nssd/ng-footer';
+import { HeaderComponent } from '@nssd/ng-header';
+import { OverviewTextComponent } from '@nssd/ng-overview-text';
+
 import { WindowRefTrackerService } from './components/windows/window-ref-tracker.service';
 
 import { AppComponent } from './app.component';
 import { CascadeWindowsButtonComponent } from './components/windows/window-buttons/cascade-windows-button/cascade-windows-button.component';
 import { OpenWindowButtonComponent } from './components/windows/window-buttons/open-window-button/open-window-button.component';
-
-// import { FooterComponent } from '../../../../libraries/projects/footer/src/lib/footer.component';
-// import { HeaderComponent } from '../../../../libraries/projects/header/src/lib/header.component';
-// import { OverviewTextComponent } from '../../../../libraries/projects/overview-text/src/lib/overview-text.component';
 
 @Component({ template:
 `<div *ngIf="showComponent">
@@ -27,10 +27,10 @@ describe('AppComponent', (): void => {
     declarations: [
       AppComponent,
       CascadeWindowsButtonComponent,
-      // FooterComponent,
-      // HeaderComponent,
+      FooterComponent,
+      HeaderComponent,
       OpenWindowButtonComponent,
-      // OverviewTextComponent,
+      OverviewTextComponent,
       TestWrapperComponent
     ],
     imports: [
