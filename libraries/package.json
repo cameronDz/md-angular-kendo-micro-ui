@@ -38,7 +38,7 @@
     "typescript": "~4.0.2",
     "zone.js": "~0.10.2"
   },
-  "name": "@nssd/ak-libraries",
+  "name": "@nssd/ng-libraries",
   "private": true,
   "repository": {
     "directory": "/libraries",

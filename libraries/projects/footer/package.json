@@ -2,7 +2,7 @@
   "dependencies": {
     "tslib": "^2.0.0"
   },
-  "name": "@nssd/ak-footer",
+  "name": "@nssd/ng-footer",
   "peerDependencies": {
     "@angular/common": "^10.1.3",
     "@angular/core": "^10.1.3"
