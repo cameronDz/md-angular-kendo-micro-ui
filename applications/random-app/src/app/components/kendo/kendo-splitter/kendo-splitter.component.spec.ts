@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { waitForAsync, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { KendoSplitterComponent } from './kendo-splitter.component';
 
@@ -6,7 +6,7 @@ describe('KendoSplitterComponent', () => {
   let component: KendoSplitterComponent;
   let fixture: ComponentFixture<KendoSplitterComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ KendoSplitterComponent ]
     })

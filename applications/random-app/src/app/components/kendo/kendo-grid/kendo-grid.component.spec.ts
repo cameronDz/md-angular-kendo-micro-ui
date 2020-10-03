@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { waitForAsync, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { KendoGridComponent } from './kendo-grid.component';
 
@@ -6,7 +6,7 @@ describe('KendoGridComponent', () => {
   let component: KendoGridComponent;
   let fixture: ComponentFixture<KendoGridComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ KendoGridComponent ]
     })
