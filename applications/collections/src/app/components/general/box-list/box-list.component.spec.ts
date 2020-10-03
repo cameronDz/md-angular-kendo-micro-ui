@@ -1,16 +1,18 @@
-import { waitForAsync, ComponentFixture, TestBed } from '@angular/core/testing';
+import { waitForAsync, ComponentFixture, TestBed, TestModuleMetadata } from '@angular/core/testing';
 
 import { BoxListComponent } from './box-list.component';
 
 describe('BoxListComponent', () => {
   let component: BoxListComponent;
   let fixture: ComponentFixture<BoxListComponent>;
+  const config: TestModuleMetadata = {
+    declarations: [
+      BoxListComponent
+    ]
+  };
 
   beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [ BoxListComponent ]
-    })
-    .compileComponents();
+    TestBed.configureTestingModule(config).compileComponents();
   }));
 
   beforeEach(() => {

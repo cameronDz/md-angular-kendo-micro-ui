@@ -1,16 +1,18 @@
-import { waitForAsync, ComponentFixture, TestBed } from '@angular/core/testing';
+import { waitForAsync, ComponentFixture, TestBed, TestModuleMetadata} from '@angular/core/testing';
 
 import { StyledTableComponent } from './styled-table.component';
 
 describe('StyledTableComponent', () => {
   let component: StyledTableComponent;
   let fixture: ComponentFixture<StyledTableComponent>;
+  const config: TestModuleMetadata = {
+    declarations: [
+      StyledTableComponent
+    ]
+  };
 
   beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [ StyledTableComponent ]
-    })
-    .compileComponents();
+    TestBed.configureTestingModule(config).compileComponents();
   }));
 
   beforeEach(() => {
