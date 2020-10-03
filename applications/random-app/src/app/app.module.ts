@@ -5,6 +5,10 @@ import { GridModule } from '@progress/kendo-angular-grid';
 import { LayoutModule } from '@progress/kendo-angular-layout';
 import { TreeViewModule } from '@progress/kendo-angular-treeview';
 
+import { FooterComponent } from '@nssd/ng-footer';
+import { HeaderComponent } from '@nssd/ng-header';
+import { OverviewTextComponent } from '@nssd/ng-overview-text';
+
 import { AppComponent } from './app.component';
 import { BoxListComponent } from './components/general/box-list/box-list.component';
 import { CloudsFooterComponent } from './components/images/clouds-footer/clouds-footer.component';
@@ -19,10 +23,13 @@ import { StyledTableComponent } from './components/general/styled-table/styled-t
     AppComponent,
     BoxListComponent,
     CloudsFooterComponent,
+    FooterComponent,
+    HeaderComponent,
     KendoGridComponent,
     KendoSplitterComponent,
     KendoTabStripComponent,
     KendoTreeViewComponent,
+    OverviewTextComponent,
     StyledTableComponent
   ],
   imports: [

@@ -1,5 +1,8 @@
-<h1>{{!!title ? 'My title ' + title : 'Missing Title'}}</h1>
+<div class="nssd-collections-container">
+  <nssd-header></nssd-header>
+  <div class="nssd-content">
+    <nssd-kendo-tab-strip></nssd-kendo-tab-strip>
+  </div>
+</div>
 
-<nssd-kendo-tab-strip></nssd-kendo-tab-strip>
-
-<nssd-clouds-footer></nssd-clouds-footer>
+<nssd-footer [sourceCodeRepo]="footerHref"></nssd-footer>
