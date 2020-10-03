@@ -11,7 +11,7 @@ export class KendoTabStripComponent implements OnInit {
 
   private readonly DISABLED_TAB_INDEX: number = 2;
 
-  @ViewChild('kendoTabStripSelector', { static: false })
+  @ViewChild('kendoTabStripSelector')
   public kendoTabStrip: TabStripComponent;
 
   // tab content
