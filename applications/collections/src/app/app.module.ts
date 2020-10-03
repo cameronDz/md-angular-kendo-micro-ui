@@ -11,7 +11,6 @@ import { OverviewTextComponent } from '@nssd/ng-overview-text';
 
 import { AppComponent } from './app.component';
 import { BoxListComponent } from './components/general/box-list/box-list.component';
-import { CloudsFooterComponent } from './components/images/clouds-footer/clouds-footer.component';
 import { KendoGridComponent } from './components/kendo/kendo-grid/kendo-grid.component';
 import { KendoSplitterComponent } from './components/kendo/kendo-splitter/kendo-splitter.component';
 import { KendoTabStripComponent } from './components/kendo/kendo-tab-strip/kendo-tab-strip.component';
@@ -22,7 +21,6 @@ import { StyledTableComponent } from './components/general/styled-table/styled-t
   declarations: [
     AppComponent,
     BoxListComponent,
-    CloudsFooterComponent,
     FooterComponent,
     HeaderComponent,
     KendoGridComponent,
