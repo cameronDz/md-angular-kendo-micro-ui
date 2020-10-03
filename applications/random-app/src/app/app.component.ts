@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as _package from '../../package.json';
 
 @Component({
   selector: 'nssd-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'nssd-ng-k-collections-app';
+
+  public footerHref: string = _package.repository.url + '/tree/master' + _package.repository.directory;
+
 }

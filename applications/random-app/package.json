@@ -59,7 +59,7 @@
   "name": "@nssd/ng-k-collections-app",
   "private": false,
   "repository": {
-    "directory": "applications/random-app",
+    "directory": "/applications/random-app",
     "type": "git",
     "url": "https://github.com/cameronDz/nssd-micro-ui"
   },
