@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'md-tutorial-root',
+  selector: 'nssd-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })

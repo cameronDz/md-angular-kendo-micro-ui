@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import * as _data from '../../../../assets/component-data/treeview.json';
 
 @Component({
-  selector: 'md-tutorial-kendo-tree-view',
+  selector: 'nssd-kendo-tree-view',
   templateUrl: './kendo-tree-view.component.html',
   styleUrls: ['./kendo-tree-view.component.scss']
 })

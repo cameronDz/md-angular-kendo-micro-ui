@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import * as _gridData from '../../../../assets/component-data/grid.json';
 
 @Component({
-  selector: 'md-tutorial-kendo-grid',
+  selector: 'nssd-kendo-grid',
   templateUrl: './kendo-grid.component.html',
   styleUrls: ['./kendo-grid.component.scss']
 })

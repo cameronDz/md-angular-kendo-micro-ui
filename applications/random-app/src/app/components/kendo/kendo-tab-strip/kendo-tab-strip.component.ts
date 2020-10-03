@@ -3,7 +3,7 @@ import { TabStripComponent } from '@progress/kendo-angular-layout';
 import * as _tabInfo from '../../../../assets/component-data/tabStrip.json';
 
 @Component({
-  selector: 'md-tutorial-kendo-tab-strip',
+  selector: 'nssd-kendo-tab-strip',
   templateUrl: './kendo-tab-strip.component.html',
   styleUrls: ['./kendo-tab-strip.component.scss']
 })

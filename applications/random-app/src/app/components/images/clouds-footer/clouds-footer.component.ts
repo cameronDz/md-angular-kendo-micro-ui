@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import * as _image from '../../../../assets/image-data/clouds.json';
 
 @Component({
-  selector: 'md-tutorial-clouds-footer',
+  selector: 'nssd-clouds-footer',
   templateUrl: './clouds-footer.component.html',
   styleUrls: ['./clouds-footer.component.scss']
 })

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'md-tutorial-kendo-splitter',
+  selector: 'nssd-kendo-splitter',
   templateUrl: './kendo-splitter.component.html',
   styleUrls: ['./kendo-splitter.component.scss']
 })

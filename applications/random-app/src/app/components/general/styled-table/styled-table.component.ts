@@ -3,7 +3,7 @@ import { StyledTableModel } from './style-table.model';
 import * as _mockedTableData from '../../../../assets/component-data/table.json';
 
 @Component({
-  selector: 'md-tutorial-styled-table',
+  selector: 'nssd-styled-table',
   templateUrl: './styled-table.component.html',
   styleUrls: ['./styled-table.component.scss']
 })

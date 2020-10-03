@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'md-tutorial-box-list',
+  selector: 'nssd-box-list',
   templateUrl: './box-list.component.html',
   styleUrls: ['./box-list.component.scss']
 })

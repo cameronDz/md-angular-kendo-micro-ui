@@ -12,13 +12,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "mdTutorial",
+      "nssd",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "md-tutorial",
+      "nssd",
       "kebab-case"
     ],
     "import-blacklist": [
