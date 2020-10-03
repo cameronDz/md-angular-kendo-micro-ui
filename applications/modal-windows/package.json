@@ -47,7 +47,7 @@
     "zone.js": "~0.10.2"
   },
   "license": "MIT",
-  "name": "@nssd/ng-k-modal-windows",
+  "name": "@nssd/ng-k-modal-windows-app",
   "private": false,
   "repository": {
     "directory": "applications/modal-windows",
