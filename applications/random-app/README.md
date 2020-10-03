@@ -1,4 +1,4 @@
-# KendoNgMdTutorial
+# NSSD Collections #
 
 ## Angular Generated Documentatoin ##
 
