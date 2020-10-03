@@ -17,7 +17,7 @@ import { KendoTabStripComponent } from './components/kendo/kendo-tab-strip/kendo
 import { KendoTreeViewComponent } from './components/kendo/kendo-tree-view/kendo-tree-view.component';
 import { StyledTableComponent } from './components/general/styled-table/styled-table.component';
 
-fdescribe('AppComponent', () => {
+describe('AppComponent', () => {
   const config: TestModuleMetadata = {
     declarations: [
       AppComponent,
@@ -48,11 +48,5 @@ fdescribe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
-  });
-
-  it(`should have as title 'nssd-ng-k-collections-app'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('nssd-ng-k-collections-app');
   });
 });
