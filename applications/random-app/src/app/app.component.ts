@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'md-angular-kendo-random';
+  title = 'nssd-ng-k-collections-app';
 }
