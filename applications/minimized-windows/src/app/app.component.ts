@@ -26,7 +26,7 @@ export class AppComponent {
     private setFooterHref(): void {
       if (!!_package && !!_package.repository) {
         const url: string = !!_package.repository.url ? _package.repository.url : '';
-        const directory: string = !!_package.repository.directory ? '/tree/master' + _package.repository.directory : '';
+        const directory: string = !!_package.repository.directory ? '/tree/master/' + _package.repository.directory : '';
         this.footerHref = url + directory;
       }
     }
