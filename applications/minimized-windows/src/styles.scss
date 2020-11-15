@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0px;
+}
+
+h4 {
+  margin-right: 4px;
+}
+
+.nssd-button-container {
+  width: 100%;
+
+  .nssd-window-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    width: 150px;
+  }
+}
+
+/* modified window on minimized */
+.k-widget.k-window.nssd-minimized-window {
+  box-shadow: 0 0 0 5px goldenrod;
+
+  .k-dialog-titlebar {
+    background-color: aqua !important;
+  }
+}

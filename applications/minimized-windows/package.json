@@ -1,0 +1,63 @@
+{
+  "author": {
+    "email": "camerondziurgot@gmail.com",
+    "name": "Cam Dziurgot",
+    "url": "http://camdziurgot.io"
+  },
+  "description": "Proof of concept for interacting with Kenod windows when minimized",
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.1001.3",
+    "@angular/animations": "~10.1.3",
+    "@angular/cli": "~10.1.3",
+    "@angular/common": "~10.1.3",
+    "@angular/compiler": "~10.1.3",
+    "@angular/compiler-cli": "~10.1.3",
+    "@angular/core": "~10.1.3",
+    "@angular/forms": "~10.1.3",
+    "@angular/language-service": "~10.1.3",
+    "@angular/localize": "^10.1.3",
+    "@angular/platform-browser": "~10.1.3",
+    "@angular/platform-browser-dynamic": "~10.1.3",
+    "@angular/router": "~10.1.3",
+    "@nssd/ng-footer": "0.0.1",
+    "@nssd/ng-header": "0.0.1",
+    "@nssd/ng-overview-text": "0.0.1",
+    "@progress/kendo-angular-buttons": "^5.4.2",
+    "@progress/kendo-angular-common": "^1.2.2",
+    "@progress/kendo-angular-dialog": "^4.2.0",
+    "@progress/kendo-angular-l10n": "^2.0.1",
+    "@progress/kendo-angular-popup": "^3.0.5",
+    "@progress/kendo-theme-default": "^4.23.0",
+    "@types/jasmine": "~3.5.0",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^6.0.1",
+    "jasmine-core": "~3.5.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "~5.0.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~3.0.2",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "rxjs": "~6.5.4",
+    "ts-node": "~8.3.0",
+    "tslib": "^2.0.0",
+    "tslint": "~6.1.0",
+    "typescript": "~4.0.3",
+    "zone.js": "~0.10.2"
+  },
+  "name": "@nssd/ng-k-minimized-windows-app",
+  "private": false,
+  "repository": {
+    "directory": "applications/minimized-windows",
+    "type": "git",
+    "url": "https://github.com/cameronDz/nssd-micro-ui"
+  },
+  "scripts": {
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test --watch=false --code-coverage=true --browsers ChromeHeadless",
+    "lint": "ng lint"
+  },
+  "version": "1.0.0"
+}

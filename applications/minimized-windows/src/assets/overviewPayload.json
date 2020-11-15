@@ -1,0 +1,12 @@
+{
+  "payload": {
+    "overviewPoints": [
+      "The window emits an event indicating whether state has changed between the three window states; 'default', 'maximize', and 'minimized'.",
+      "When state changes to 'minimized, the window can be moved to the top right corner of the screen using setOff function on the WindowRef.",
+      "The WindowRef can also set append/trim title text indicating the window is closed by accessing the window instance title property.",
+      "The window instance can also be accessed on the WindowRef, and classes can be added to the top container of the window, with effects being set in the global styles.scss file. i.e., adding a bright 'box-shadow' property around the minimized window."
+    ],
+    "subtitle": "Changing Kendo Window based on WindowState changes.",
+    "title": "Technical Overview"
+  }
+}
