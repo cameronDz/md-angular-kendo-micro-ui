@@ -2,7 +2,7 @@
   "author": {
     "email": "camerondziurgot@gmail.com",
     "name": "Cam Dziurgot",
-    "url": "https://camdziurgot.io"
+    "url": "https://www.camdziurgot.io"
   },
   "description": "Proof of concept for giving windows modal affect, and opening multiple windows on top of each other.",
   "devDependencies": {
