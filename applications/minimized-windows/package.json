@@ -46,7 +46,7 @@
     "typescript": "~4.0.3",
     "zone.js": "~0.10.2"
   },
-  "name": "@nssd/ng-k-minimized-windows-app",
+  "name": "@nssd/ng-k-minimized-windows",
   "private": false,
   "repository": {
     "directory": "applications/minimized-windows",

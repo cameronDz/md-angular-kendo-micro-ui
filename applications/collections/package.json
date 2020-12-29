@@ -56,7 +56,7 @@
     "zone.js": "~0.10.2"
   },
   "license": "MIT",
-  "name": "@nssd/ng-k-collections-app",
+  "name": "@nssd/ng-k-collections",
   "private": false,
   "repository": {
     "directory": "/applications/collections",

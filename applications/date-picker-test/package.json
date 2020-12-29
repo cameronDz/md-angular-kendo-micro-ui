@@ -47,7 +47,7 @@
     "zone.js": "~0.10.2"
   },
   "license": "MIT",
-  "name": "@nssd/ng-k-date-picker-test-app",
+  "name": "@nssd/ng-k-date-picker-test",
   "private": true,
   "repository": {
     "directory": "applications/date-picker-test",
