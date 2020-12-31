@@ -1,0 +1,41 @@
+<div class="nssd-form-wrapper">
+  <div class="form-label">Tracked Form</div>
+  <nssd-text-box nssdAnalyticInputTracker
+    id="message-input-id"
+    label="Message"
+    name="message"
+    [hasClearButton]="true"
+    [isReadOnly]="isReadOnly"
+    [placeholder]="messagePlaceholder"
+    [value]="messageValue"
+    (valueChange)="handleValueChange($event, 'message')">
+  </nssd-text-box>
+
+  <nssd-numberic-box nssdAnalyticInputTracker
+    id="form-input-number"
+    label="Number"
+    name="number"
+    [max]="numberMax"
+    [min]="numberMin"
+    [placeholder]="numberPlaceholder"
+    [isReadOnly]="isReadOnly"
+    [value]="numberValue"
+    (valueChange)="handleValueChange($event, 'number')">
+  </nssd-numberic-box>
+</div>
+
+<div class="nssd-button-wrapper">
+  <nssd-button nssdAnalyticButtonTracker
+    id="form-button-submit"
+    label="Submit"
+    [isDisabled]="((isReadOnly) || (!isFormDirty))"
+    [isPrimary]="true"
+    (buttonClick)="clickedButtonSubmit()">
+  </nssd-button>
+  <nssd-button nssdAnalyticButtonTracker
+    id="form-button-clear"
+    label="Clear"
+    [isDisabled]="!isFormDirty"
+    (buttonClick)="clickedButtonClear()">
+  </nssd-button>
+</div>

@@ -1,0 +1,14 @@
+<div class="nssd-input-wrapper">
+  <label *ngIf="!!label" class="nssd-label">{{label}}</label>
+  <kendo-numerictextbox
+    [id]="id"
+    [max]="max"
+    [min]="min"
+    [placeholder]="placeholder"
+    [readonly]="isReadOnly"
+    [value]="value"
+    (blur)="handleBlur()"
+    (focus)="handleFocus()"
+    (valueChange)="handleValueChange($event)">
+  </kendo-numerictextbox>
+</div>

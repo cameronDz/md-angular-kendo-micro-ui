@@ -1,0 +1,33 @@
+<div class="data-layer-container">
+  <div class="data-layer-label">DataLayer View</div>
+  <div class="data-layer-buttons">
+    <nssd-button
+      label="Update"
+      [isDisabled]="false"
+      [isPrimary]="true"
+      (buttonClick)="handleClickedButtonUpdateDataLayerView()">
+    </nssd-button>
+    <nssd-button
+      label="Clear"
+      [isDisabled]="!dataLayerJson"
+      (buttonClick)="handleClickedButtonClearDataLayerView()">
+    </nssd-button>
+  </div>
+  <div class="data-layer-content">
+    <div *ngIf="!!dataLayerJson" class="data-layer-view">
+      <div class="data-layer-initialized">
+        <span class="data-layer-label">Initialized: </span>{{dataLayerJson.initialized}}
+      </div>
+      <span class="data-layer-label">Events ({{!!dataLayerJson.events ? dataLayerJson.events.length : '0'}})</span>
+      <div *ngIf="!!dataLayerJson.events" class="data-layer-events">
+        <ng-container *ngFor="let event of dataLayerJson.events">
+          <div class="data-layer-event">
+            <span class="data-layer-label data-layer-event">Time: </span>{{event.time}}
+            <span class="data-layer-label data-layer-event">Type: </span>{{event.type}}
+            <span class="data-layer-label data-layer-event">ID: </span>{{event.id}}
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div>
