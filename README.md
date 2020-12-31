@@ -10,6 +10,19 @@ Applicaitons and Libraries both need to tag releases under under the SemVer vers
 ### Naming Convention ##
 All applications and libraries names start in the same namespace; ```@nssd```. The individual names should include frameworks they were designed on top of in their name; i.e. the cascading window application was design using both Angular and Kendo as the main frameworks, so the name starts with ```ng-k-``` - ng for Angular, k for Kendo.
 
+### Library Installation ###
+To install the header, footer, and overview components in the applications, run the following command - ```npm install --save-dev --verbose @nssd/ng-header @nssd/ng-footer @nssd/ng-overview-text```. Import each component from their package into the applications app.module.ts file, and add the components to the ```declarations``` array. In the tsconfig.json file, the following configurations should be set:
+```js
+{
+  "angularCompilerOptions": {
+    "enableIvy": false,
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  },
+  ...
+}
+```
+
 ### Documentation ###
 Project specific documentation should be stored in that specific directory. Any documentation on the microfronend archecture should be stored in /documentation.
 
