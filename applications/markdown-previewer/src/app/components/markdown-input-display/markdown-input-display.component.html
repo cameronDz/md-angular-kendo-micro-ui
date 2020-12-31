@@ -1,0 +1,17 @@
+<div class="markdown-input-container">
+  <div class="markdown-label">Input Markdown Text</div>
+  <textarea kendoTextArea
+    class="markdown-input-field"
+    (change)="handleChangeInputArea($event)">
+  </textarea>
+
+  <div class="button-container">
+    <button kendoButton class="markdown-button" [disabled]="!inputData" (click)="handleButtonPreviewClick()">Show Preview</button>
+    <button kendoButton class="markdown-button" [disabled]="!markdownData" (click)="handleButtonClearClick()">Clear Preview</button>
+  </div>
+
+  <div class="markdown-label">Markdown Preview</div>
+  <div class="markdown-display-container">
+    <markdown [data]="markdownData"></markdown>
+  </div>
+</div>
