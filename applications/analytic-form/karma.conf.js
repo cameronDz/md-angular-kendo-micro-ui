@@ -11,7 +11,7 @@ module.exports = function (config) {
     },
     colors: true,
     coverageIstanbulReporter: {
-      dir: require('path').join(__dirname, './coverage/nssd-kendo-form'),
+      dir: require('path').join(__dirname, './coverage/analytic-form'),
       reports: ['html', 'lcovonly', 'text-summary'],
       fixWebpackSourcePaths: true
     },
