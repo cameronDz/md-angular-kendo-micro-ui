@@ -11,7 +11,7 @@ module.exports = function (config) {
     },
     colors: true,
     coverageIstanbulReporter: {
-      dir: require('path').join(__dirname, './coverage/nssd-modal-windows'),
+      dir: require('path').join(__dirname, './coverage/modal-windows'),
       fixWebpackSourcePaths: true,
       reports: ['html', 'lcovonly', 'text-summary']
     },

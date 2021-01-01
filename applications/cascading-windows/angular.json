@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "nssd-cascading-windows": {
+    "cascading-windows": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/nssd-cascading-windows",
+            "outputPath": "dist/cascading-windows",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "nssd-cascading-windows:build"
+            "browserTarget": "cascading-windows:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "nssd-cascading-windows:build:production"
+              "browserTarget": "cascading-windows:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "nssd-cascading-windows:build"
+            "browserTarget": "cascading-windows:build"
           }
         },
         "test": {
@@ -113,5 +113,5 @@
         }
       }
     }},
-  "defaultProject": "nssd-cascading-windows"
+  "defaultProject": "cascading-windows"
 }

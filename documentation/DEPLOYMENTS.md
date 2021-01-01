@@ -12,3 +12,48 @@ The deployment process is currently a manual process;
         - __Note__: AWS IAM permissions are set manually on the EC2 instance in order for the server to access the S3 bucket (AWS Docs [reference](https://aws.amazon.com/premiumsupport/knowledge-center/ec2-instance-access-s3-bucket/))
         - Setup an IAM User, and under Security Credentials, create an access key and copy credentials to EC2 using ```aws configure``` command
 1. Once the transfer is done, a cache clear on a local browser can verify the changes went through with the new deploy.
+
+## Local Build Script ##
+Script to run on your local machine to build all projects (run from root of entire project).
+```
+cd applications
+
+cd analytic-form
+npm install --verbose
+npm run build
+mv dist/* ../../dist
+cd ..
+
+cd cascading-windows
+npm install --verbose
+npm run build
+mv dist/* ../../dist
+cd ..
+
+cd date-picker-test
+npm install --verbose
+npm run build
+mv dist/* ../../dist
+cd ..
+
+cd markdown-
+npm install --verbose
+npm run build
+mv dist/* ../../dist
+cd ..
+
+cd minimized-windows
+npm install --verbose
+npm run build
+mv dist/* ../../dist
+cd ..
+
+cd modal-windows
+npm install --verbose
+npm run build
+mv dist/* ../../dist
+cd ..
+
+cd ../..
+ls dist
+```

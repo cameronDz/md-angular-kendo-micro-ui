@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "nssd-datepicker-test": {
+    "date-picker-test": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/nssd-datepicker-test",
+            "outputPath": "dist/date-picker-test",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "nssd-datepicker-test:build"
+            "browserTarget": "date-picker-test:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "nssd-datepicker-test:build:production"
+              "browserTarget": "date-picker-test:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "nssd-datepicker-test:build"
+            "browserTarget": "date-picker-test:build"
           }
         },
         "test": {
@@ -113,5 +113,5 @@
         }
       }
     }},
-  "defaultProject": "nssd-datepicker-test"
+  "defaultProject": "date-picker-test"
 }
