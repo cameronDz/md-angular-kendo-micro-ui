@@ -27,5 +27,5 @@ To install the header, footer, and overview components in the applications, run 
 Project specific documentation should be stored in that specific directory. Any documentation on the microfronend archecture should be stored in /documentation.
 
 ### Next Steps/TODO List ###
-[ ] Document library publication process 
-[ ] Create application deployment steps/design
+- [ ] Document library publication process 
+- [ ] Create application deployment steps/design
