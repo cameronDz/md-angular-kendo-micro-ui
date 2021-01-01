@@ -36,7 +36,7 @@ npm run build
 mv dist/* ../../dist
 cd ..
 
-cd markdown-
+cd markdown-previewer
 npm install --verbose
 npm run build
 mv dist/* ../../dist
