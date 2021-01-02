@@ -1,0 +1,10 @@
+<div *ngIf="!!name" class="information-container">
+  <div class="name-display">{{name}}</div>
+  <div *ngIf="!!description" class="description-display">{{description}}</div>
+  <div *ngIf="!!applicationUrl" class="url-display">
+    <a class="url-link" [href]="applicationUrl">Visit Application</a>
+  </div>
+  <div *ngIf="!!codeRepositoryUrl" class="url-display">
+    <a class="url-link" target="_" [href]="codeRepositoryUrl">View Source Code</a>
+  </div>
+</div>

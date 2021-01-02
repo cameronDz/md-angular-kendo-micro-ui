@@ -1,0 +1,9 @@
+<div *ngIf="!!applicationList" class="list-container">
+  <ng-container *ngFor="let app of applicationList">
+    <nssd-application-information *ngIf="!!app"
+      [description]="app.description"
+      [name]="app.name"
+      [subdirectory]="app.subdirectory">
+    </nssd-application-information>
+  </ng-container>
+</div>
