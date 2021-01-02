@@ -57,6 +57,6 @@ npm run build
 mv dist/* ../../dist
 cd ..
 
-cd ../..
+cd ..
 ls dist
 ```
