@@ -15,6 +15,8 @@ The deployment process is currently a manual process;
 
 ## Local Build Script ##
 Script to run on your local machine to build all projects (run from root of entire project).
+_Note_: all none-root applications need to update ```href``` value in the ```<base>``` element of the index.html file.
+
 ```
 git clone <repo-url>
 cd <repo-name>
