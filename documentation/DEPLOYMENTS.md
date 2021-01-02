@@ -45,6 +45,12 @@ npm run build
 mv dist/* ../../dist
 cd ..
 
+cd micro-landing
+npm install --verbose
+npm run build
+mv dist/micro-landing/* ../../dist
+cd ..
+
 cd minimized-windows
 npm install --verbose
 npm run build
