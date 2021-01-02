@@ -16,6 +16,9 @@ The deployment process is currently a manual process;
 ## Local Build Script ##
 Script to run on your local machine to build all projects (run from root of entire project).
 ```
+git clone <repo-url>
+cd <repo-name>
+mkdir dist
 cd applications
 
 cd analytic-form
