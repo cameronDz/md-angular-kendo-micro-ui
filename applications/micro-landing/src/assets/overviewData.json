@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "points": [
+      "Each UI application is a Single Page Application (SPA)",
+      "Applications used NPM modules to share components without duplicating code"
+    ],
+    "subtitle": "Landing page for NSSD Micro UI application, an example application for structuing a micro UI project.",
+    "title": "NSSD Micro UI Landing Page: "
+  }
+}

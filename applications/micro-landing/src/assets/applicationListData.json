@@ -1,0 +1,34 @@
+{
+  "payload": [
+    {
+      "description": "Angular application using Kendo UI framework form input components that tracks a users interactions with a simple form.",
+      "name": "NSSD Analytic Form",
+      "subdirectory": "analytic-form"
+    },
+    {
+      "description": "Angular application using Kendo UI framework and enhancing the Window components to cascade through button click.",
+      "name": "NSSD Cascading Windows",
+      "subdirectory": "cascading-windows"
+    },
+    {
+      "description": "Angular application using Kendo UI framework to unit test the Date Picker component.",
+      "name": "NSSD Date Picker",
+      "subdirectory": "date-picker-test"
+    },
+    {
+      "description": "Angular application using NGX-Markdown package and Kendo UI framework display user input in Markdown format.",
+      "name": "NSSD Markdown Previewer",
+      "subdirectory": "markdown-previewer"
+    },
+    {
+      "description": "Angular application using Kendo UI framework to enhance the Window component to be dynamically placed when minimized.",
+      "name": "NSSD Minimized Windows",
+      "subdirectory": "minimized-windows"
+    },
+    {
+      "description": "Angular application using Kendo UI framework to enhance the Window components to be modals.",
+      "name": "NSSD Modal Windows",
+      "subdirectory": "modal-windows"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+.list-container {
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  width: 600px;
+}
+
+@media screen and (max-width: 650px) {
+  .list-container {
+    width: 90%;
+  }
+}
