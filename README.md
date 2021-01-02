@@ -1,5 +1,5 @@
 # NSSD Micro UI #
-This mono repo is used for creating Angular Kendo UI applications to be used in an example Microfrontend web application.
+This mono repo is used for creating Angular Kendo UI applications to be used in an example Microfrontend web application. Currently deployed [here](https://www.nssd-micro-ui.com).
 
 ### Project Creation ###
 Applications and projects should be generate in the appropriate directory, either /libraries or /applications. Any .gitattributes or .gitignore requirements should be in the root of the repository. All application should be generated from the /applications directory with the following command```ng new @nssd/app-name --prefix=nssd --style=scss --skip-git=true --skip-install=true --verbose=true```.
