@@ -25,6 +25,19 @@ export class KendoTabStripComponent implements OnInit {
   // tab details
   public isTabEnabled: boolean = false;
   public selectedTab: number = 3;
+  public selectedValue: string = "DoKg";
+
+  // dropdown data
+  public data: Array<{ dataValue: string, displayValue: string }> = [
+    { dataValue: "A", displayValue: "Choice A" },
+    { dataValue: "B", displayValue: "Choice B" },
+    { dataValue: "Dog", displayValue: "Choice Dog" },
+    { dataValue: "", displayValue: "Choice nil" }
+  ];
+
+  public handleEvent(event: any, name: string = 'NA'): void {
+    console.log('event: ', event, ', name: ', name, ', value: ', this.selectedValue);
+  }
 
   constructor() {}
 

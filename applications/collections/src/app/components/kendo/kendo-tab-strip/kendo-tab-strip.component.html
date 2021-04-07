@@ -22,3 +22,15 @@
 <button (click)="onTabButtonClick()">
   {{tabStripButtonText}}
 </button>
+
+<div style="margin-top: 24px;">
+  <kendo-dropdownlist
+    [data]="data"
+    [textField]="'displayValue'"
+    [valueField]="'dataValue'"
+    [valuePrimitive]="true"
+    [(value)]="selectedValue"
+    (selectionChange)="handleEvent($event, 'selection')"
+    (valueChange)="handleEvent($event, 'value')">
+  </kendo-dropdownlist>
+</div>
