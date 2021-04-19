@@ -18,6 +18,7 @@ import { KendoSplitterComponent } from './components/kendo/kendo-splitter/kendo-
 import { KendoTabStripComponent } from './components/kendo/kendo-tab-strip/kendo-tab-strip.component';
 import { KendoTreeViewComponent } from './components/kendo/kendo-tree-view/kendo-tree-view.component';
 import { StyledTableComponent } from './components/general/styled-table/styled-table.component';
+import { KendoEditGridComponent } from './components/kendo/kendo-edit-grid/kendo-edit-grid.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { StyledTableComponent } from './components/general/styled-table/styled-t
     KendoTabStripComponent,
     KendoTreeViewComponent,
     OverviewTextComponent,
-    StyledTableComponent
+    StyledTableComponent,
+    KendoEditGridComponent
   ],
   imports: [
     BrowserAnimationsModule,
