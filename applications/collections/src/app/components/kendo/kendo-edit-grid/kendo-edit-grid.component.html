@@ -11,11 +11,15 @@
           <p class="line-break">{{ dataItem.id }}</p>
       </ng-template>
       <ng-template kendoGridEditTemplate>
-          <textarea kendoGridFocusable
-              (keydown.enter)="$event.stopImmediatePropagation()"
-              name="id"
-              class="k-textbox">
-          </textarea>
+        <kendo-dropdownlist kendoGridFocusable
+          name="id"
+          [data]="selectData"
+          [textField]="'displayValue'"
+          [valueField]="'dataValue'"
+          [valuePrimitive]="true"
+          [(value)]="currentValue"
+          (selectionChange)="handleGridEvent($event)">
+        </kendo-dropdownlist>
       </ng-template>
   </kendo-grid-column>
   <kendo-grid-column field="name" title="Name" width="250">
