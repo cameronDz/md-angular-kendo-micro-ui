@@ -38,7 +38,7 @@
   "name": "@nssd/ng-dynamic-paragraph",
   "private": true,
   "repository": {
-    "directory": "/applications/dynamic-paragraph",
+    "directory": "/applications/ng-dynamic-paragraph",
     "type": "git",
     "url": "https://github.com/cameronDz/nssd-micro-ui"
   },
