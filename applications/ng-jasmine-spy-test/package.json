@@ -50,7 +50,7 @@
   "name": "@nssd/ng-jasmine-spy-test",
   "private": true,
   "repository": {
-    "directory": "/applications/jasmine-spy-test",
+    "directory": "/applications/ng-jasmine-spy-test",
     "type": "git",
     "url": "https://github.com/cameronDz/nssd-micro-ui"
   },
