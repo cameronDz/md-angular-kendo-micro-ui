@@ -1,0 +1,17 @@
+.root {
+  background-color: lightgrey;
+  margin: 12px auto;
+  padding: 4px;
+  width: 600px;
+}
+
+.root textarea {
+  font-size: 14px;
+  overflow-y: auto;
+}
+
+.root textarea:focus {
+  border: 1px solid blue !important;
+  outline: none !important;
+  overflow-y: auto;
+}
