@@ -47,10 +47,10 @@
     "xmlhttprequest-ssl": ">=1.6.2",
     "zone.js": "~0.9.1"
   },
-  "name": "@nssd/ng-jasmine-spy-test",
+  "name": "@nssd/ng-j-spy-test",
   "private": true,
   "repository": {
-    "directory": "/applications/ng-jasmine-spy-test",
+    "directory": "/applications/ng-j-spy-test",
     "type": "git",
     "url": "https://github.com/cameronDz/nssd-micro-ui"
   },
