@@ -39,7 +39,7 @@
   "name": "@nssd/ng-animated-radio-buttons",
   "private": true,
   "repository": {
-    "directory": "/applications/animated-radio-buttons",
+    "directory": "/applications/ng-animated-radio-buttons",
     "type": "git",
     "url": "https://github.com/cameronDz/nssd-micro-ui"
   },
