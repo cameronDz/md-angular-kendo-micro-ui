@@ -54,7 +54,7 @@
   "name": "@nssd/ng-k-modal-windows",
   "private": false,
   "repository": {
-    "directory": "applications/modal-windows",
+    "directory": "applications/ng-k-modal-windows",
     "type": "git",
     "url": "https://github.com/cameronDz/nssd-micro-ui"
   },

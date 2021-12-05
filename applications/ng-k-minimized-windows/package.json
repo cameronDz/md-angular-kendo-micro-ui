@@ -53,7 +53,7 @@
   "name": "@nssd/ng-k-minimized-windows",
   "private": false,
   "repository": {
-    "directory": "applications/minimized-windows",
+    "directory": "applications/ng-k-minimized-windows",
     "type": "git",
     "url": "https://github.com/cameronDz/nssd-micro-ui"
   },
