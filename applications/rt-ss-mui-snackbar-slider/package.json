@@ -40,9 +40,9 @@
     "webpack-merge": "^5.8.0"
   },
   "license": "MIT",
-  "name": "@nssd/ss-react-mui-snackbar-slider",
+  "name": "@nssd/rt-ss-mui-snackbar-slider",
   "repository": {
-    "directory": "/applications/snackbar-slider",
+    "directory": "/applications/rt-ss-mui-snackbar-slider",
     "type": "git",
     "url": "https://github.com/cameronDz/nssd-micro-ui"
   },
