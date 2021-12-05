@@ -49,10 +49,10 @@
   },
   "license": "ISC",
   "main": "index.js",
-  "name": "@nssd/react-canvas-orbitor",
+  "name": "@nssd/rt-canvas-orbitor",
   "private": true,
   "repository": {
-    "directory": "/applications/canvas-orbitor",
+    "directory": "/applications/rt-canvas-orbitor",
     "type": "git",
     "url": "https://github.com/cameronDz/nssd-micro-ui"
   },
