@@ -1,0 +1,99 @@
+{
+  "raptorArray": [{
+      "name": "Ash",
+      "imageUrl": "raptors/ash.jpg",
+      "description": "This is Ash",
+      "display": true,
+      "sex": "female",
+      "type": "Eastern-screech Owl"
+    },
+    {
+      "name": "Aviana",
+      "imageUrl": "raptors/aviana.jpg",
+      "description": "This is Aviana",
+      "display": true,
+      "sex": "female",
+      "type": "Red-tailed Hawk"
+    },
+    {
+      "name": "Cedar",
+      "imageUrl": "raptors/cedar.jpg",
+      "description": "This is Cedar",
+      "display": true,
+      "sex": "female",
+      "type": "Eastern-screech Owl"
+    },
+    {
+      "name": "Chance",
+      "imageUrl": null,
+      "description": "This is Chance",
+      "display": true,
+      "sex": "male",
+      "type": "Red-tailed Hawk"
+    },
+    {
+      "name": "Chase",
+      "imageUrl": "raptors/chase.jpg",
+      "description": "This is Chase",
+      "display": true,
+      "sex": "male",
+      "type": "Red-shouldered Hawk"
+    },
+    {
+      "name": "Kai",
+      "imageUrl": "raptors/kai.jpg",
+      "description": "This is Kai",
+      "display": true,
+      "sex": "female",
+      "type": "American Kestrel"
+    },
+    {
+      "name": "Kayden",
+      "imageUrl": null,
+      "description": "This is Kayden",
+      "display": false,
+      "sex": null,
+      "type": "Barned Owl"
+    },
+    {
+      "name": "Myles",
+      "imageUrl": null,
+      "description": "This is Myles",
+      "display": true,
+      "sex": "male",
+      "type": "Broad-wing Hawk"
+    },
+    {
+      "name": "Sage",
+      "imageUrl": null,
+      "description": "This is Sage",
+      "display": true,
+      "sex": "female",
+      "type": "Great-horned Owl"
+    },
+    {
+      "name": "Shadow",
+      "imageUrl": "raptors/myles.jpg",
+      "description": "This is Shadow",
+      "display": true,
+      "sex": "female",
+      "type": "Broad-wing Hawk"
+    },
+    {
+      "name": "Spirit",
+      "imageUrl": null,
+      "description": "This is Spirit",
+      "display": true,
+      "sex": "male",
+      "type": "American Kestrel"
+    },
+    {
+      "name": "Willow",
+      "imageUrl": null,
+      "description": "This is Aviana",
+      "display": false,
+      "sex": "female",
+      "type": "Red-tailed Hawk"
+    }
+  ]
+}

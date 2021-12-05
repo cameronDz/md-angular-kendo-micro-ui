@@ -1,0 +1,27 @@
+{
+    "birds": {
+        "description": "Our raptors flex their talons; see Ash, Cedar, Onyx, Sable, Aviana and more!!!",
+        "imageUrl": "home/raptor.jpg",
+        "title": "Birds"
+    },
+    "education": {
+        "description": "Learn about Raptors!",
+        "imageUrl": "home/demo.jpg",
+        "title": "Education"
+    },
+    "header": {
+        "description": "Sharing Wildlife through Rapture Education",
+        "imageUrl": "home/header.jpg",
+        "title": "Sharing Wildlife through Rapture Education"
+    },
+    "mission": {
+        "description": "Our programs provide enriching experiences, with thousands of attendees and years of experiences, we've brought passion to those who have participated.",
+        "imageUrl": "home/sable.jpg",
+        "title": "Mission"
+    },
+    "programs": {
+        "description": "We actively engage the audience in our programs, find out where we will be next and how to bring us to your location providing a lifetime experience.",
+        "imageUrl": "home/owl.jpg",
+        "title": "Programs"
+    }
+}

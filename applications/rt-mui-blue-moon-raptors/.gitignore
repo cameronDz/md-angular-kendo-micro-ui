@@ -1,0 +1,19 @@
+# general ignores
+dist/
+*.log
+*.swp
+
+# ide specific ignores
+.settings/
+.classpath
+.idea
+.vscode
+
+# mac ignores
+.DS_STORE
+
+# node ignores
+node_modules/
+
+# testing ignores
+.nyc_output/

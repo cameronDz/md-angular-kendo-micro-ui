@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "displayName": "Home",
+            "link": "/home"
+        },
+        {
+            "displayName": "Programs",
+            "link": "/programs"
+        },
+        {
+            "displayName": "Raptors",
+            "link": "/raptors"
+        },
+        {
+            "displayName": "Mission",
+            "link": "/mission"
+        },
+        {
+            "displayName": "Education",
+            "link": "/education"
+        },
+        {
+            "displayName": "Support",
+            "link": "/support"
+        }
+    ]
+}
