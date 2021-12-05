@@ -54,7 +54,7 @@
   "name": "@nssd/ng-k-date-picker-test",
   "private": true,
   "repository": {
-    "directory": "applications/date-picker-test",
+    "directory": "applications/ng-k-date-picker-test",
     "type": "git",
     "url": "https://github.com/cameronDz/nssd-micro-ui"
   },
