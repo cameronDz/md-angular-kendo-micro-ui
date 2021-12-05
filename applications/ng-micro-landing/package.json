@@ -46,7 +46,7 @@
   "name": "@nssd/ng-micro-landing",
   "private": true,
   "repository": {
-    "directory": "applications/micro-landing",
+    "directory": "applications/ng-micro-landing",
     "type": "git",
     "url": "https://github.com/cameronDz/nssd-micro-ui"
   },
