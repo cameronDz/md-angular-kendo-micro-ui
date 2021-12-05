@@ -53,7 +53,7 @@
   "name": "@nssd/ng-k-analytic-form",
   "private": true,
   "repository": {
-    "directory": "applications/analytic-form",
+    "directory": "applications/ng-k-analytic-form",
     "type": "git",
     "url": "https://github.com/cameronDz/nssd-micro-ui"
   },
